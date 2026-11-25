@@ -1,0 +1,1321 @@
+{
+  "convention": "Omega=2Momega",
+  "certified": false,
+  "tail_bounds": "analytic bounds; arithmetic and propagation empirical",
+  "modes": [
+    {
+      "ell": 0,
+      "n": 0,
+      "runs": [
+        {
+          "ell": 0,
+          "n": 0,
+          "omega": [
+            0.2209098781609919,
+            -0.20979143417399657
+          ],
+          "anchor": 1.5,
+          "radius": 60.0,
+          "order": 28,
+          "rtol": 1e-10,
+          "amplitude_abs": 2.697725578944911e-17,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.064535175999481,
+          "bounds": {
+            "terminal_value": 3.312417727090505e-17,
+            "terminal_derivative": 1.0091389204342832e-17,
+            "matching_value": 2.848060042120417e-16,
+            "matching_derivative": 7.667569372519759e-17,
+            "residual_integral": 1.0086791827107249e-17,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 0.4444444444444444,
+            "determinant_tail_only": 2.3506602257271633e-16
+          },
+          "ode_evaluations": 890,
+          "horizon_value": [
+            1.3289816215679793,
+            0.2788810082288664
+          ],
+          "outgoing_scaled_value": [
+            1.082756917984583,
+            0.4708947531798338
+          ]
+        },
+        {
+          "ell": 0,
+          "n": 0,
+          "omega": [
+            0.22090987816084123,
+            -0.20979143417376506
+          ],
+          "anchor": 1.5,
+          "radius": 80.0,
+          "order": 40,
+          "rtol": 2e-12,
+          "amplitude_abs": 8.020914783604507e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.07692822900025931,
+          "bounds": {
+            "terminal_value": 1.0081505014749519e-22,
+            "terminal_derivative": 3.071363555303843e-23,
+            "matching_value": 8.669937541271861e-22,
+            "matching_derivative": 2.334188541106054e-22,
+            "residual_integral": 3.070576246262445e-23,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 0.4444444444444444,
+            "determinant_tail_only": 7.15587363796984e-22
+          },
+          "ode_evaluations": 1646,
+          "horizon_value": [
+            1.3289816215684198,
+            0.27888100822842166
+          ],
+          "outgoing_scaled_value": [
+            1.0827569179835197,
+            0.47089475318095175
+          ]
+        },
+        {
+          "ell": 0,
+          "n": 0,
+          "omega": [
+            0.22090987816083935,
+            -0.20979143417376192
+          ],
+          "anchor": 1.5,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 6.613555551200614e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.13766708399998606,
+          "bounds": {
+            "terminal_value": 7.940932639113686e-28,
+            "terminal_derivative": 2.4192311631263153e-28,
+            "matching_value": 6.829708788828606e-27,
+            "matching_derivative": 1.8387700576387838e-27,
+            "residual_integral": 2.418834216052488e-28,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 0.4444444444444444,
+            "determinant_tail_only": 5.6370468830811865e-27
+          },
+          "ode_evaluations": 3134,
+          "horizon_value": [
+            1.3289816215684258,
+            0.2788810082284156
+          ],
+          "outgoing_scaled_value": [
+            1.0827569179835046,
+            0.47089475318098006
+          ]
+        },
+        {
+          "ell": 0,
+          "n": 0,
+          "omega": [
+            0.22090987816083954,
+            -0.20979143417376184
+          ],
+          "anchor": 1.9,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 2.8210785924973377e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.14139970099950006,
+          "bounds": {
+            "terminal_value": 7.940932506244567e-28,
+            "terminal_derivative": 2.4192311226473034e-28,
+            "matching_value": 3.941992586108682e-27,
+            "matching_derivative": 9.590178530513328e-28,
+            "residual_integral": 2.4188342160524635e-28,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 0.2770083102493075,
+            "determinant_tail_only": 3.3397864360653934e-27
+          },
+          "ode_evaluations": 2990,
+          "horizon_value": [
+            1.4603330783510458,
+            0.3990579064137249
+          ],
+          "outgoing_scaled_value": [
+            1.0361747989320382,
+            0.2667049034751752
+          ]
+        }
+      ]
+    },
+    {
+      "ell": 0,
+      "n": 1,
+      "runs": [
+        {
+          "ell": 0,
+          "n": 1,
+          "omega": [
+            0.17223383666194958,
+            -0.6961048936394894
+          ],
+          "anchor": 3.0,
+          "radius": 60.0,
+          "order": 28,
+          "rtol": 1e-10,
+          "amplitude_abs": 1.8128414202843126e-14,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.22029963100067107,
+          "bounds": {
+            "terminal_value": 5.563088686719767e-29,
+            "terminal_derivative": 3.989268040652823e-29,
+            "matching_value": 1.2988356385418622e-28,
+            "matching_derivative": 5.324628959164967e-29,
+            "residual_integral": 3.988496909695704e-29,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 0.1111111111111111,
+            "determinant_tail_only": 9.98030320664824e-27
+          },
+          "ode_evaluations": 1394,
+          "horizon_value": [
+            -12.543482956037108,
+            -4.43701954205565
+          ],
+          "outgoing_scaled_value": [
+            0.9461137340993442,
+            0.020690528687025058
+          ]
+        },
+        {
+          "ell": 0,
+          "n": 1,
+          "omega": [
+            0.17223383667230982,
+            -0.6961048936141173
+          ],
+          "anchor": 3.0,
+          "radius": 80.0,
+          "order": 40,
+          "rtol": 2e-12,
+          "amplitude_abs": 2.7838217827370763e-14,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.1322640409998712,
+          "bounds": {
+            "terminal_value": 4.0255333803108526e-39,
+            "terminal_derivative": 2.8866934475618447e-39,
+            "matching_value": 9.399361182217299e-39,
+            "matching_derivative": 3.8535498376344665e-39,
+            "residual_integral": 2.8863793011668496e-39,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 0.1111111111111111,
+            "determinant_tail_only": 7.22292978302375e-37
+          },
+          "ode_evaluations": 2750,
+          "horizon_value": [
+            -12.543482954894356,
+            -4.437019540265276
+          ],
+          "outgoing_scaled_value": [
+            0.9461137340979888,
+            0.020690528690244736
+          ]
+        },
+        {
+          "ell": 0,
+          "n": 1,
+          "omega": [
+            0.17223383667278536,
+            -0.6961048936129579
+          ],
+          "anchor": 3.0,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 4.078380426933538e-14,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.26163549900047656,
+          "bounds": {
+            "terminal_value": 2.7892016492682573e-47,
+            "terminal_derivative": 2.0001250428678025e-47,
+            "matching_value": 6.512861207827264e-47,
+            "matching_derivative": 2.6702209702700593e-47,
+            "residual_integral": 1.9999856817056536e-47,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 0.1111111111111111,
+            "determinant_tail_only": 5.004937990357734e-45
+          },
+          "ode_evaluations": 5474,
+          "horizon_value": [
+            -12.543482954841284,
+            -4.43701954018437
+          ],
+          "outgoing_scaled_value": [
+            0.9461137340979343,
+            0.020690528690394994
+          ]
+        },
+        {
+          "ell": 0,
+          "n": 1,
+          "omega": [
+            0.17223383667278155,
+            -0.6961048936129718
+          ],
+          "anchor": 3.4,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 7.038774106450211e-14,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.3253305399994133,
+          "bounds": {
+            "terminal_value": 2.789201611989582e-47,
+            "terminal_derivative": 2.0001250161354523e-47,
+            "matching_value": 6.293174146381189e-47,
+            "matching_derivative": 2.5126843078543196e-47,
+            "residual_integral": 1.999985681703825e-47,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 0.08650519031141869,
+            "determinant_tail_only": 1.0509377251388925e-44
+          },
+          "ode_evaluations": 5402,
+          "horizon_value": [
+            -18.35831050495855,
+            -8.517702374643285
+          ],
+          "outgoing_scaled_value": [
+            0.9596160610656067,
+            0.015341247873029804
+          ]
+        }
+      ]
+    },
+    {
+      "ell": 0,
+      "n": 2,
+      "runs": [
+        {
+          "ell": 0,
+          "n": 2,
+          "omega": [
+            0.15148387677441566,
+            -1.2021571919202967
+          ],
+          "anchor": 5.0,
+          "radius": 60.0,
+          "order": 28,
+          "rtol": 1e-10,
+          "amplitude_abs": 8.511750747333564e-10,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.2765322559998822,
+          "bounds": {
+            "terminal_value": 2.8272692995317034e-36,
+            "terminal_derivative": 3.425699997003969e-36,
+            "matching_value": 5.8436578094760433e-36,
+            "matching_derivative": 3.6548489071029366e-36,
+            "residual_integral": 3.425309376409516e-36,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 0.04,
+            "determinant_tail_only": 1.8343584731548994e-29
+          },
+          "ode_evaluations": 1898,
+          "horizon_value": [
+            1736.1509687037922,
+            1528.0443928181098
+          ],
+          "outgoing_scaled_value": [
+            0.9905717687478399,
+            0.0013883473282056678
+          ]
+        },
+        {
+          "ell": 0,
+          "n": 2,
+          "omega": [
+            0.1514838711525774,
+            -1.2021571802552975
+          ],
+          "anchor": 5.0,
+          "radius": 80.0,
+          "order": 40,
+          "rtol": 2e-12,
+          "amplitude_abs": 3.6290123835433973e-10,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.3399201290003475,
+          "bounds": {
+            "terminal_value": 2.4490091644474197e-49,
+            "terminal_derivative": 2.9673758363585823e-49,
+            "matching_value": 5.06208709822835e-49,
+            "matching_derivative": 3.1661720306272962e-49,
+            "residual_integral": 2.96718507236498e-49,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 0.04,
+            "determinant_tail_only": 1.5890923538211057e-42
+          },
+          "ode_evaluations": 3806,
+          "horizon_value": [
+            1736.1510394856955,
+            1528.0441873528562
+          ],
+          "outgoing_scaled_value": [
+            0.9905717686306074,
+            0.0013883473099885045
+          ]
+        },
+        {
+          "ell": 0,
+          "n": 2,
+          "omega": [
+            0.1514838711352773,
+            -1.2021571800985371
+          ],
+          "anchor": 5.0,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 3.212914901950614e-10,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.5848042079996958,
+          "bounds": {
+            "terminal_value": 2.068347006291385e-59,
+            "terminal_derivative": 2.506141265608425e-59,
+            "matching_value": 4.275359487849845e-59,
+            "matching_derivative": 2.6741572071428817e-59,
+            "residual_integral": 2.5060380438883316e-59,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 0.04,
+            "determinant_tail_only": 1.342151420272755e-52
+          },
+          "ode_evaluations": 7694,
+          "horizon_value": [
+            1736.151039460951,
+            1528.044184713178
+          ],
+          "outgoing_scaled_value": [
+            0.9905717686291853,
+            0.0013883473102544513
+          ]
+        },
+        {
+          "ell": 0,
+          "n": 2,
+          "omega": [
+            0.151483870934526,
+            -1.202157180110285
+          ],
+          "anchor": 5.4,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 6.942373961258245e-10,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.6429134380005053,
+          "bounds": {
+            "terminal_value": 2.0683469777008057e-59,
+            "terminal_derivative": 2.506141230938451e-59,
+            "matching_value": 4.2552716075155935e-59,
+            "matching_derivative": 2.649817483634247e-59,
+            "residual_integral": 2.506038041339562e-59,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 0.034293552812071325,
+            "determinant_tail_only": 4.377242587869868e-52
+          },
+          "ode_evaluations": 7658,
+          "horizon_value": [
+            2937.3069930241095,
+            3003.4948617962596
+          ],
+          "outgoing_scaled_value": [
+            0.9919836781494644,
+            0.0011696260251022835
+          ]
+        }
+      ]
+    },
+    {
+      "ell": 1,
+      "n": 0,
+      "runs": [
+        {
+          "ell": 1,
+          "n": 0,
+          "omega": [
+            0.5858722665342985,
+            -0.19531997782700855
+          ],
+          "anchor": 1.5,
+          "radius": 60.0,
+          "order": 28,
+          "rtol": 1e-10,
+          "amplitude_abs": 2.352986646971877e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.14472698899953684,
+          "bounds": {
+            "terminal_value": 2.0588178927519503e-25,
+            "terminal_derivative": 1.271470002612932e-25,
+            "matching_value": 2.3795629475183902e-23,
+            "matching_derivative": 1.4568387353458092e-23,
+            "residual_integral": 1.204404705316908e-25,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 2.5388395468376395,
+            "determinant_tail_only": 4.51060026159953e-23
+          },
+          "ode_evaluations": 1874,
+          "horizon_value": [
+            1.2006720937696485,
+            0.6106667097634841
+          ],
+          "outgoing_scaled_value": [
+            0.001046317356095572,
+            1.061035741911106
+          ]
+        },
+        {
+          "ell": 1,
+          "n": 0,
+          "omega": [
+            0.5858722665345608,
+            -0.19531997782715205
+          ],
+          "anchor": 1.5,
+          "radius": 80.0,
+          "order": 40,
+          "rtol": 2e-12,
+          "amplitude_abs": 4.1093145158910733e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.2660023460002776,
+          "bounds": {
+            "terminal_value": 1.2972891447263801e-34,
+            "terminal_derivative": 8.011705348213111e-35,
+            "matching_value": 1.5199040023422532e-32,
+            "matching_derivative": 9.306397181865364e-33,
+            "residual_integral": 7.692923332684068e-35,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 2.5388395468376395,
+            "determinant_tail_only": 2.8812394389453514e-32
+          },
+          "ode_evaluations": 3758,
+          "horizon_value": [
+            1.200672093768835,
+            0.6106667097629608
+          ],
+          "outgoing_scaled_value": [
+            0.0010463173605621684,
+            1.0610357419100702
+          ]
+        },
+        {
+          "ell": 1,
+          "n": 0,
+          "omega": [
+            0.5858722665345654,
+            -0.19531997782715632
+          ],
+          "anchor": 1.5,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 5.423366249791451e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.524111021999488,
+          "bounds": {
+            "terminal_value": 3.57283024406824e-42,
+            "terminal_derivative": 2.2064829025218365e-42,
+            "matching_value": 4.220138080004002e-40,
+            "matching_derivative": 2.5841778088022477e-40,
+            "residual_integral": 2.1360032378875406e-42,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 2.5388395468376395,
+            "determinant_tail_only": 8.00028190807986e-40
+          },
+          "ode_evaluations": 7622,
+          "horizon_value": [
+            1.2006720937688151,
+            0.6106667097629543
+          ],
+          "outgoing_scaled_value": [
+            0.0010463173606700387,
+            1.0610357419100636
+          ]
+        },
+        {
+          "ell": 1,
+          "n": 0,
+          "omega": [
+            0.5858722665345651,
+            -0.1953199778271568
+          ],
+          "anchor": 1.9,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 6.284644371783133e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.3683648340002037,
+          "bounds": {
+            "terminal_value": 3.572824971106999e-42,
+            "terminal_derivative": 2.2064796460842145e-42,
+            "matching_value": 1.5758319601526505e-40,
+            "matching_derivative": 9.511262145302429e-41,
+            "residual_integral": 2.1360032378875457e-42,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 1.930478127928146,
+            "determinant_tail_only": 3.3110357322911894e-40
+          },
+          "ode_evaluations": 7466,
+          "horizon_value": [
+            1.2542907768638318,
+            0.825871085768568
+          ],
+          "outgoing_scaled_value": [
+            0.43991944763952695,
+            0.8705061892021541
+          ]
+        }
+      ]
+    },
+    {
+      "ell": 1,
+      "n": 1,
+      "runs": [
+        {
+          "ell": 1,
+          "n": 1,
+          "omega": [
+            0.528897301212261,
+            -0.6125147831154397
+          ],
+          "anchor": 1.5,
+          "radius": 60.0,
+          "order": 28,
+          "rtol": 1e-10,
+          "amplitude_abs": 5.067626105912499e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.22855571399941255,
+          "bounds": {
+            "terminal_value": 1.8403176024157677e-29,
+            "terminal_derivative": 1.4893010707716376e-29,
+            "matching_value": 8.136593323232503e-28,
+            "matching_derivative": 6.435714376470977e-28,
+            "residual_integral": 1.4289704599794608e-29,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 2.5388395468376395,
+            "determinant_tail_only": 1.5455196036066452e-27
+          },
+          "ode_evaluations": 2366,
+          "horizon_value": [
+            -0.4987795676420462,
+            0.38488022045960046
+          ],
+          "outgoing_scaled_value": [
+            0.26930522936432505,
+            0.12716448806273312
+          ]
+        },
+        {
+          "ell": 1,
+          "n": 1,
+          "omega": [
+            0.5288973012097095,
+            -0.6125147831180491
+          ],
+          "anchor": 1.5,
+          "radius": 80.0,
+          "order": 40,
+          "rtol": 2e-12,
+          "amplitude_abs": 6.562376380182106e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.23828720999972575,
+          "bounds": {
+            "terminal_value": 3.2991256936460685e-40,
+            "terminal_derivative": 2.6698605836891493e-40,
+            "matching_value": 1.4738430665899374e-38,
+            "matching_derivative": 1.1660281573811697e-38,
+            "residual_integral": 2.588402936143268e-40,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 2.5388395468376395,
+            "determinant_tail_only": 2.799804609539577e-38
+          },
+          "ode_evaluations": 4766,
+          "horizon_value": [
+            -0.4987795676624712,
+            0.3848802204529227
+          ],
+          "outgoing_scaled_value": [
+            0.26930522936330165,
+            0.12716448806528674
+          ]
+        },
+        {
+          "ell": 1,
+          "n": 1,
+          "omega": [
+            0.5288973012096655,
+            -0.6125147831180937
+          ],
+          "anchor": 1.5,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 1.7999266722893561e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.46602000999973825,
+          "bounds": {
+            "terminal_value": 8.918775685112024e-49,
+            "terminal_derivative": 7.217635782203234e-49,
+            "matching_value": 4.0091768413262565e-47,
+            "matching_derivative": 3.172302396749702e-47,
+            "residual_integral": 7.041024477332636e-49,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 2.5388395468376395,
+            "determinant_tail_only": 7.616547885387979e-47
+          },
+          "ode_evaluations": 9746,
+          "horizon_value": [
+            -0.4987795676628224,
+            0.38488022045280945
+          ],
+          "outgoing_scaled_value": [
+            0.2693052293632865,
+            0.1271644880653297
+          ]
+        },
+        {
+          "ell": 1,
+          "n": 1,
+          "omega": [
+            0.528897301209665,
+            -0.6125147831180943
+          ],
+          "anchor": 1.9,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 5.645056929061631e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.5329116840002825,
+          "bounds": {
+            "terminal_value": 8.91876564020359e-49,
+            "terminal_derivative": 7.21762765322981e-49,
+            "matching_value": 1.8904946800227868e-47,
+            "matching_derivative": 1.457731250055073e-47,
+            "residual_integral": 7.041024477332555e-49,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 1.930478127928146,
+            "determinant_tail_only": 1.2321542029236968e-46
+          },
+          "ode_evaluations": 9602,
+          "horizon_value": [
+            -1.9316656918034276,
+            -0.04709728649459599
+          ],
+          "outgoing_scaled_value": [
+            0.41156830259954597,
+            0.28175396509394035
+          ]
+        }
+      ]
+    },
+    {
+      "ell": 1,
+      "n": 2,
+      "runs": [
+        {
+          "ell": 1,
+          "n": 2,
+          "omega": [
+            0.45907866985665524,
+            -1.0802668500496904
+          ],
+          "anchor": 2.0,
+          "radius": 60.0,
+          "order": 28,
+          "rtol": 1e-10,
+          "amplitude_abs": 5.991707566004114e-15,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.21926722499938478,
+          "bounds": {
+            "terminal_value": 8.557070245572002e-35,
+            "terminal_derivative": 1.0044009303246164e-34,
+            "matching_value": 7.846400998360194e-34,
+            "matching_derivative": 8.205448044014583e-34,
+            "residual_integral": 9.761734134131232e-35,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 1.8207963267948966,
+            "determinant_tail_only": 6.33542143132934e-32
+          },
+          "ode_evaluations": 2930,
+          "horizon_value": [
+            7.668932080711125,
+            -2.2063015958644514
+          ],
+          "outgoing_scaled_value": [
+            0.6100508533462501,
+            0.13218229632663173
+          ]
+        },
+        {
+          "ell": 1,
+          "n": 2,
+          "omega": [
+            0.4590786698625417,
+            -1.0802668500384875
+          ],
+          "anchor": 2.0,
+          "radius": 80.0,
+          "order": 40,
+          "rtol": 2e-12,
+          "amplitude_abs": 7.711647579101007e-15,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.32101805599995714,
+          "bounds": {
+            "terminal_value": 1.1977094037175106e-47,
+            "terminal_derivative": 1.4058321421010933e-47,
+            "matching_value": 1.1061143179584462e-46,
+            "matching_derivative": 1.1577376106892284e-46,
+            "residual_integral": 1.376120580114995e-47,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 1.8207963267948966,
+            "determinant_tail_only": 8.938080829790787e-45
+          },
+          "ode_evaluations": 6086,
+          "horizon_value": [
+            7.668932080151158,
+            -2.2063015962124295
+          ],
+          "outgoing_scaled_value": [
+            0.6100508533449917,
+            0.13218229632992481
+          ]
+        },
+        {
+          "ell": 1,
+          "n": 2,
+          "omega": [
+            0.4590786698626018,
+            -1.0802668500382206
+          ],
+          "anchor": 2.0,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 1.3364840522645792e-14,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.5859449969993875,
+          "bounds": {
+            "terminal_value": 1.3657183417540392e-57,
+            "terminal_derivative": 1.6030355409543994e-57,
+            "matching_value": 1.2666865452881691e-56,
+            "matching_derivative": 1.326491701753422e-56,
+            "residual_integral": 1.575889033551464e-57,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 1.8207963267948966,
+            "determinant_tail_only": 1.0240364691710035e-54
+          },
+          "ode_evaluations": 12614,
+          "horizon_value": [
+            7.66893208014125,
+            -2.20630159622284
+          ],
+          "outgoing_scaled_value": [
+            0.6100508533449454,
+            0.1321822963299817
+          ]
+        },
+        {
+          "ell": 1,
+          "n": 2,
+          "omega": [
+            0.459078669862624,
+            -1.0802668500382309
+          ],
+          "anchor": 2.4,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 2.3285032808211994e-14,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.6686508809998486,
+          "bounds": {
+            "terminal_value": 1.3657169696663552e-57,
+            "terminal_derivative": 1.6030339304427573e-57,
+            "matching_value": 9.495969883317469e-57,
+            "matching_derivative": 9.543025072645764e-57,
+            "residual_integral": 1.575889033550406e-57,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 1.4826080501068584,
+            "determinant_tail_only": 3.903725365385904e-54
+          },
+          "ode_evaluations": 12458,
+          "horizon_value": [
+            19.150442320246018,
+            0.45750915855395563
+          ],
+          "outgoing_scaled_value": [
+            0.6654139349184167,
+            0.12059799234978426
+          ]
+        }
+      ]
+    },
+    {
+      "ell": 2,
+      "n": 0,
+      "runs": [
+        {
+          "ell": 2,
+          "n": 0,
+          "omega": [
+            0.9672877444205245,
+            -0.193517551957632
+          ],
+          "anchor": 1.5,
+          "radius": 60.0,
+          "order": 28,
+          "rtol": 1e-10,
+          "amplitude_abs": 1.4386031490681985e-15,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.2519375440006115,
+          "bounds": {
+            "terminal_value": 1.1076383750892629e-30,
+            "terminal_derivative": 1.0926360625270342e-30,
+            "matching_value": 1.8333265326943223e-27,
+            "matching_derivative": 1.8074025633278272e-27,
+            "residual_integral": 9.871833673800226e-31,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 6.727629751624031,
+            "determinant_tail_only": 5.637200589802032e-27
+          },
+          "ode_evaluations": 2870,
+          "horizon_value": [
+            0.9745227473430572,
+            0.9274946521880325
+          ],
+          "outgoing_scaled_value": [
+            -0.9454983483147155,
+            0.44903746631534774
+          ]
+        },
+        {
+          "ell": 2,
+          "n": 0,
+          "omega": [
+            0.9672877444214123,
+            -0.19351755195660797
+          ],
+          "anchor": 1.5,
+          "radius": 80.0,
+          "order": 40,
+          "rtol": 2e-12,
+          "amplitude_abs": 1.2381362720438831e-15,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.29063126600067335,
+          "bounds": {
+            "terminal_value": 2.5023674579507513e-42,
+            "terminal_derivative": 2.4684743574658167e-42,
+            "matching_value": 4.248354839436903e-39,
+            "matching_derivative": 4.1883448889020694e-39,
+            "residual_integral": 2.287593160002595e-42,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 6.727629751624031,
+            "determinant_tail_only": 1.3063145609271925e-38
+          },
+          "ode_evaluations": 5930,
+          "horizon_value": [
+            0.9745227473469584,
+            0.9274946521845135
+          ],
+          "outgoing_scaled_value": [
+            -0.9454983483164978,
+            0.44903746632514163
+          ]
+        },
+        {
+          "ell": 2,
+          "n": 0,
+          "omega": [
+            0.9672877444214258,
+            -0.19351755195657613
+          ],
+          "anchor": 1.5,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 4.789072945060185e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.6170785220001562,
+          "bounds": {
+            "terminal_value": 1.614940545761743e-51,
+            "terminal_derivative": 1.5930671226476597e-51,
+            "matching_value": 2.783816407125461e-48,
+            "matching_derivative": 2.74451817846929e-48,
+            "residual_integral": 1.4989895176664746e-51,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 6.727629751624031,
+            "determinant_tail_only": 8.559916437673111e-48
+          },
+          "ode_evaluations": 12278,
+          "horizon_value": [
+            0.9745227473470808,
+            0.9274946521844587
+          ],
+          "outgoing_scaled_value": [
+            -0.9454983483167323,
+            0.449037466325434
+          ]
+        },
+        {
+          "ell": 2,
+          "n": 0,
+          "omega": [
+            0.9672877444214261,
+            -0.1935175519565758
+          ],
+          "anchor": 1.9,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 4.2887395067799507e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.5949257920001401,
+          "bounds": {
+            "terminal_value": 1.614936086036946e-51,
+            "terminal_derivative": 1.5930627233272212e-51,
+            "matching_value": 6.1455897859589804e-49,
+            "matching_derivative": 6.046420747239506e-49,
+            "residual_integral": 1.498989517666465e-51,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 5.237417763285823,
+            "determinant_tail_only": 2.1134005517739596e-48
+          },
+          "ode_evaluations": 12170,
+          "horizon_value": [
+            0.8898764656515114,
+            1.2071668526498514
+          ],
+          "outgoing_scaled_value": [
+            -0.3276052041364599,
+            0.9064076432225928
+          ]
+        }
+      ]
+    },
+    {
+      "ell": 2,
+      "n": 1,
+      "runs": [
+        {
+          "ell": 2,
+          "n": 1,
+          "omega": [
+            0.9277011580375603,
+            -0.591207873974109
+          ],
+          "anchor": 1.5,
+          "radius": 60.0,
+          "order": 28,
+          "rtol": 1e-10,
+          "amplitude_abs": 2.9214028093117067e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.31695996600046783,
+          "bounds": {
+            "terminal_value": 1.7546648827221773e-32,
+            "terminal_derivative": 1.9302559393068814e-32,
+            "matching_value": 1.4510561250114474e-29,
+            "matching_derivative": 1.5943344958950485e-29,
+            "residual_integral": 1.762339374973036e-32,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 6.727629751624031,
+            "determinant_tail_only": 2.3992997270671523e-29
+          },
+          "ode_evaluations": 3194,
+          "horizon_value": [
+            -0.3201118357146061,
+            0.201737786741782
+          ],
+          "outgoing_scaled_value": [
+            0.035309105220328936,
+            0.17320356767492837
+          ]
+        },
+        {
+          "ell": 2,
+          "n": 1,
+          "omega": [
+            0.9277011580394994,
+            -0.5912078739759015
+          ],
+          "anchor": 1.5,
+          "radius": 80.0,
+          "order": 40,
+          "rtol": 2e-12,
+          "amplitude_abs": 4.550853916692166e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.3520484689997829,
+          "bounds": {
+            "terminal_value": 7.969993814258509e-45,
+            "terminal_derivative": 8.767559006698238e-45,
+            "matching_value": 6.742747886226743e-42,
+            "matching_derivative": 7.408733801410957e-42,
+            "residual_integral": 8.189214662885347e-45,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 6.727629751624031,
+            "determinant_tail_only": 1.1149156481070258e-41
+          },
+          "ode_evaluations": 6638,
+          "horizon_value": [
+            -0.3201118357082569,
+            0.20173778673309864
+          ],
+          "outgoing_scaled_value": [
+            0.035309105220867346,
+            0.17320356767266498
+          ]
+        },
+        {
+          "ell": 2,
+          "n": 1,
+          "omega": [
+            0.9277011580395308,
+            -0.5912078739759248
+          ],
+          "anchor": 1.5,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 2.940785067067668e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.7055770199995095,
+          "bounds": {
+            "terminal_value": 1.850846155852268e-54,
+            "terminal_derivative": 2.0360621679184654e-54,
+            "matching_value": 1.587378448244127e-51,
+            "matching_derivative": 1.7441929231097537e-51,
+            "residual_integral": 1.92790581573809e-54,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 6.727629751624031,
+            "determinant_tail_only": 2.6247527129400914e-51
+          },
+          "ode_evaluations": 13766,
+          "horizon_value": [
+            -0.32011183570814933,
+            0.20173778673298048
+          ],
+          "outgoing_scaled_value": [
+            0.035309105220880335,
+            0.17320356767263367
+          ]
+        },
+        {
+          "ell": 2,
+          "n": 1,
+          "omega": [
+            0.9277011580395312,
+            -0.5912078739759249
+          ],
+          "anchor": 1.9,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 8.329661793707893e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.7271046940004453,
+          "bounds": {
+            "terminal_value": 1.8508415725475683e-54,
+            "terminal_derivative": 2.0360571259579155e-54,
+            "matching_value": 4.0960300744163284e-52,
+            "matching_derivative": 4.48556329864472e-52,
+            "residual_integral": 1.9279058157380557e-54,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 5.237417763285823,
+            "determinant_tail_only": 2.952861229329299e-51
+          },
+          "ode_evaluations": 13586,
+          "horizon_value": [
+            -1.312104276484576,
+            -0.6622825029692296
+          ],
+          "outgoing_scaled_value": [
+            0.03353768633662778,
+            0.38144243184854093
+          ]
+        }
+      ]
+    },
+    {
+      "ell": 2,
+      "n": 2,
+      "runs": [
+        {
+          "ell": 2,
+          "n": 2,
+          "omega": [
+            0.8610881087513366,
+            -1.017116804305145
+          ],
+          "anchor": 1.5,
+          "radius": 60.0,
+          "order": 28,
+          "rtol": 1e-10,
+          "amplitude_abs": 2.6452304133254123e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.32094737100032944,
+          "bounds": {
+            "terminal_value": 2.3814246806505947e-35,
+            "terminal_derivative": 3.173644290549836e-35,
+            "matching_value": 6.8812330034128e-33,
+            "matching_derivative": 9.138650515231647e-33,
+            "residual_integral": 2.943956605027449e-35,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 6.727629751624031,
+            "determinant_tail_only": 3.599588133125446e-32
+          },
+          "ode_evaluations": 3698,
+          "horizon_value": [
+            0.853289561898686,
+            -0.7695738633956103
+          ],
+          "outgoing_scaled_value": [
+            0.12491006977262384,
+            0.29385727440387593
+          ]
+        },
+        {
+          "ell": 2,
+          "n": 2,
+          "omega": [
+            0.8610881087531218,
+            -1.0171168043084988
+          ],
+          "anchor": 1.5,
+          "radius": 80.0,
+          "order": 40,
+          "rtol": 2e-12,
+          "amplitude_abs": 3.6672473126139086e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.3621944939995956,
+          "bounds": {
+            "terminal_value": 7.645297903869826e-49,
+            "terminal_derivative": 1.018863046116077e-48,
+            "matching_value": 2.25105853382278e-46,
+            "matching_derivative": 2.9897210965297972e-46,
+            "residual_integral": 9.630568585275257e-49,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 6.727629751624031,
+            "determinant_tail_only": 1.1775841432994536e-45
+          },
+          "ode_evaluations": 7730,
+          "horizon_value": [
+            0.8532895619078092,
+            -0.7695738633759109
+          ],
+          "outgoing_scaled_value": [
+            0.124910069775321,
+            0.29385727440528203
+          ]
+        },
+        {
+          "ell": 2,
+          "n": 2,
+          "omega": [
+            0.8610881087531512,
+            -1.0171168043085483
+          ],
+          "anchor": 1.5,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 7.618998341170605e-16,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 0.769247655000072,
+          "bounds": {
+            "terminal_value": 3.2228316920871865e-59,
+            "terminal_derivative": 4.2949590142948475e-59,
+            "matching_value": 9.596790713864597e-57,
+            "matching_derivative": 1.274636946924614e-56,
+            "residual_integral": 4.105737357769911e-59,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 6.727629751624031,
+            "determinant_tail_only": 5.020444631453795e-56
+          },
+          "ode_evaluations": 16094,
+          "horizon_value": [
+            0.8532895619079326,
+            -0.7695738633756048
+          ],
+          "outgoing_scaled_value": [
+            0.12491006977536129,
+            0.293857274405306
+          ]
+        },
+        {
+          "ell": 2,
+          "n": 2,
+          "omega": [
+            0.8610881087531534,
+            -1.0171168043085492
+          ],
+          "anchor": 1.9,
+          "radius": 100.0,
+          "order": 48,
+          "rtol": 3e-14,
+          "amplitude_abs": 1.8367388920041143e-15,
+          "root_success": true,
+          "root_message": "The solution converged.",
+          "elapsed_seconds": 1.0413472359996376,
+          "bounds": {
+            "terminal_value": 3.222825104210598e-59,
+            "terminal_derivative": 4.294950234854088e-59,
+            "matching_value": 3.1368223250458154e-57,
+            "matching_derivative": 4.1373877316047855e-57,
+            "residual_integral": 4.105737357769635e-59,
+            "phase_monotone": true,
+            "total_potential_integral_bound": 5.237417763285823,
+            "determinant_tail_only": 1.136532336295093e-55
+          },
+          "ode_evaluations": 15818,
+          "horizon_value": [
+            3.5530004894586846,
+            -0.7476673062548185
+          ],
+          "outgoing_scaled_value": [
+            0.2452711887281532,
+            0.2762596842995897
+          ]
+        }
+      ]
+    }
+  ]
+}

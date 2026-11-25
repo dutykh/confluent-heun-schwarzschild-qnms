@@ -1,0 +1,107 @@
+{
+  "method": "exact dyadic Chebyshev-coefficient Lobatto collocation, arbitrary-precision determinant Newton",
+  "results": [
+    {
+      "ell": 0,
+      "N": 40,
+      "working_decimal_digits": 50,
+      "omega_strings": [
+        "0.220909659414208718213235803396126826959247811",
+        "-0.209791636586675596985286324666746716624456543"
+      ],
+      "newton_absolute_steps": [
+        "2.5018511831e-14",
+        "2.24403323149e-26",
+        "1.81300052587e-50"
+      ],
+      "final_step": 1.8130005258730994e-50,
+      "provisional_overtone": 0,
+      "elapsed_seconds": 0.11899471282958984
+    },
+    {
+      "ell": 0,
+      "N": 40,
+      "working_decimal_digits": 50,
+      "omega_strings": [
+        "0.173321067911894231072897399080999049489721472",
+        "-0.695848382321302553401997290384720275335337"
+      ],
+      "newton_absolute_steps": [
+        "1.16418929732e-14",
+        "2.5136518717e-27",
+        "1.72192648859e-51"
+      ],
+      "final_step": 1.7219264885890808e-51,
+      "provisional_overtone": 1,
+      "elapsed_seconds": 0.13616418838500977
+    },
+    {
+      "ell": 0,
+      "N": 40,
+      "working_decimal_digits": 50,
+      "omega_strings": [
+        "0.14071201859935932989002072378828476360565502",
+        "-1.20360726591772059069489281614408398932636723"
+      ],
+      "newton_absolute_steps": [
+        "1.8300018013e-12",
+        "5.41857166744e-23",
+        "4.75063156482e-44"
+      ],
+      "final_step": 4.75063156481753e-44,
+      "provisional_overtone": 2,
+      "elapsed_seconds": 0.10561800003051758
+    },
+    {
+      "ell": 0,
+      "N": 80,
+      "working_decimal_digits": 50,
+      "omega_strings": [
+        "0.22090987816028264912383011909702198312549821",
+        "-0.209791434083019973705780922066917702739364061"
+      ],
+      "newton_absolute_steps": [
+        "9.40887851833e-14",
+        "4.86037652137e-25",
+        "1.29696523642e-47"
+      ],
+      "final_step": 1.2969652364194748e-47,
+      "provisional_overtone": 0,
+      "elapsed_seconds": 0.4304471015930176
+    },
+    {
+      "ell": 0,
+      "N": 80,
+      "working_decimal_digits": 50,
+      "omega_strings": [
+        "0.172195376875355172509769701790711656037192616",
+        "-0.696082055361740362690559869755249246137234697"
+      ],
+      "newton_absolute_steps": [
+        "1.28180974193e-14",
+        "4.79780323916e-27",
+        "3.70687275298e-51"
+      ],
+      "final_step": 3.70687275298368e-51,
+      "provisional_overtone": 1,
+      "elapsed_seconds": 0.5205399990081787
+    },
+    {
+      "ell": 0,
+      "N": 80,
+      "working_decimal_digits": 50,
+      "omega_strings": [
+        "0.152251837526380475602417873389129258823946405",
+        "-1.20131278055812136873985400455256667346986215"
+      ],
+      "newton_absolute_steps": [
+        "1.92504086121e-12",
+        "7.4305953009e-23",
+        "1.10711035635e-43"
+      ],
+      "final_step": 1.107110356353236e-43,
+      "provisional_overtone": 2,
+      "elapsed_seconds": 0.4556422233581543
+    }
+  ]
+}

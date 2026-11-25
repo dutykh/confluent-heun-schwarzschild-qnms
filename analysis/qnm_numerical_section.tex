@@ -1,0 +1,25 @@
+\subsection{Results and observed limitations}
+The table reports $\Omega=2M\omega$. Differences are absolute complex-frequency differences from the independently computed finite-depth continued-fraction value. They are comparisons, not certified errors. A dagger marks the three arbitrary-precision contour calculations; other contour entries use the final double-precision run. The frequency columns are rounded to twelve decimal places.
+\begin{center}\small
+\begin{tabular}{rrrrrr}\toprule
+$\ell$ & $n$ & $\operatorname{Re}\Omega$ & $-\operatorname{Im}\Omega$ & Contour--CF & Spectral--CF\\\midrule
+$0^{\dagger}$ & 0 & $0.220909878161$ & $0.209791434174$ & $9.21\times10^{-32}$ & $3.4\times10^{-25}$ \\
+$0$ & 1 & $0.172233836673$ & $0.696104893613$ & $3.91\times10^{-14}$ & $7.31\times10^{-14}$ \\
+$0^{\dagger}$ & 2 & $0.151483871070$ & $1.202157180072$ & $1.48\times10^{-28}$ & $1.04\times10^{-10}$ \\
+$1$ & 0 & $0.585872266535$ & $0.195319977827$ & $1.33\times10^{-16}$ & $2.86\times10^{-33}$ \\
+$1$ & 1 & $0.528897301210$ & $0.612514783118$ & $6.79\times10^{-16}$ & $1.2\times10^{-29}$ \\
+$1$ & 2 & $0.459078669863$ & $1.080266850038$ & $6.41\times10^{-15}$ & $3.37\times10^{-19}$ \\
+$2^{\dagger}$ & 0 & $0.967287744421$ & $0.193517551957$ & $3.1\times10^{-35}$ & $6.29\times10^{-45}$ \\
+$2$ & 1 & $0.927701158040$ & $0.591207873976$ & $4.3\times10^{-16}$ & $1.11\times10^{-35}$ \\
+$2$ & 2 & $0.861088108753$ & $1.017116804309$ & $7.07\times10^{-16}$ & $5.75\times10^{-28}$ \\
+\bottomrule\end{tabular}\end{center}
+
+The spectral degrees are $320$ except for $(\ell,n)=(0,1)$ and $(0,2)$, which use $480$ and $640$. For $(0,2)$ its last grid change is $4.62\times10^{-9}$, despite the smaller cross-method difference; neither number is a proved error bound. A small residual cannot resolve this discrepancy: an earlier degree-$320$ polynomial had a continuum ODE residual of order $10^{-44}$ while its frequency still moved by order $10^{-7}$ under refinement. The endpoint-continuation and non-self-adjoint conditioning issues are substantive.
+
+The double-precision contour $(0,2)$ root differed from the continued fraction by about $7.0\times10^{-11}$ and changed by $2.0\times10^{-10}$ when the matching radius was varied. Its infinity-tail-only determinant bound was already of order $10^{-52}$, so that bound could not explain the observed numerical error. Repeating the calculation with a 40-digit Taylor propagator, then 55-digit checks, reduced the cross-method difference to $1.48\times10^{-28}$. The continued-fraction reference itself has a double-depth Newton correction estimate of $1.51\times10^{-28}$; the agreement is therefore reference-limited at that scale. It is not a 28-digit certification.
+
+The selected arbitrary-precision contour roots use $R=140$, inverse-power order $65$, Taylor order $48$, and step fraction $0.20$. Root searches began from rounded seeds. For $(0,2)$, changing the matching radius $5\to5.4$, Taylor order $48\to56$, and step fraction $0.20\to0.18$ at 55 digits gives $|A_{\rm in}|=3.57\times10^{-29}$ at the same root. This supplies an additional contour/propagation check. Separate function and derivative enclosures for the numerical Taylor transport are still required for certification.
+
+As a normalization check independent of root location, real-frequency scattering at $\Omega=0.5,1$ for $\ell=0,1,2$ satisfies $|A_{\rm in}|^2-|A_{\rm out}|^2=1$ with absolute discrepancies between $4.4\times10^{-16}$ and $3.7\times10^{-12}$ in the double-precision calculation. The largest discrepancy occurs when subtracting large scattering amplitudes. The exceptional-horizon evaluator also passed 53 numerical checks, including 36 exact resonance cases through $j=32$, generic and near-resonant comparisons, and static Legendre checks. The largest exceptional-identity discrepancy was $1.95\times10^{-93}$ at elevated working precision; these are consistency checks, not interval proofs.
+
+The archived JSON records retain precision, truncation, grid, contour, residual, and comparison data. No speed advantage is claimed: elapsed times from different arithmetic settings and implementations are not an equitable performance benchmark.

@@ -30,3 +30,11 @@ JuliaLocalPreferences.toml
 
 # Conda environment and metadata created in the project directory by the CondaPkg package
 .CondaPkg/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# The PDF drawn by docs/figures/frequency_plane.py; the README shows its SVG
+docs/figures/*.pdf

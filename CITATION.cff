@@ -1,0 +1,53 @@
+# Authors: Davide Batic, Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science
+# and Technology, Abu Dhabi, UAE) and Alexandre Grezzi de Miranda Schmidt (Departamento de Física,
+# Instituto de Ciências Exatas, Universidade Federal Fluminense, Volta Redonda, Brazil)
+#
+# Citation metadata in Citation File Format 1.2.0, from which GitHub draws its button "Cite this
+# repository". The article that these codes and data accompany is not yet published, so the
+# software itself is cited.
+
+cff-version: 1.2.0
+message: "If you use these codes or data, please cite this software as given below."
+title: "A confluent Heun connection formula for Schwarzschild quasinormal frequencies: codes and data"
+abstract: >-
+  Codes and data of the article "A confluent Heun connection formula for isolating scalar
+  quasinormal frequencies in Schwarzschild spacetime". The incoming amplitude of a massless
+  scalar wave in the Schwarzschild exterior is written as a connection coefficient of the
+  confluent Heun equation and evaluated from a truncated inverse-power expansion at a finite
+  point of a complex ray, with an exact residual identity for the error. The programs enclose
+  the amplitude and its frequency derivative in outward-rounded interval arithmetic and prove,
+  by Rouché's theorem, that nine quasinormal frequencies for l = 0, 1, 2 are simple zeros, each
+  within 1e-28 of its stated centre and the only zero within 1e-4. They also treat the two
+  banks of the negative imaginary axis, a resonance-free half-disk near zero frequency for the
+  monopole, and two examples of the general confluent Heun equation. The data are the stored
+  enclosures, the independent continued-fraction, contour and Chebyshev calculations, and the
+  checks that replay them.
+type: software
+version: "1.0.0"
+date-released: "2026-11-25"
+license: LGPL-2.1-only
+repository-code: "https://github.com/dutykh/confluent-heun-schwarzschild-qnms"
+keywords:
+  - black-holes
+  - quasinormal-modes
+  - general-relativity
+  - schwarzschild-black-hole
+  - confluent-heun-equation
+  - connection-problem
+  - interval-arithmetic
+  - computer-assisted-proof
+  - rouche-theorem
+  - python
+  - reproducible-research
+authors:
+  - family-names: Batic
+    given-names: Davide
+    affiliation: "Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
+    orcid: "https://orcid.org/0000-0002-7619-4900"
+  - family-names: Dutykh
+    given-names: Denys
+    affiliation: "Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates"
+    orcid: "https://orcid.org/0000-0001-5247-2788"
+  - family-names: "Grezzi de Miranda Schmidt"
+    given-names: Alexandre
+    affiliation: "Departamento de Física, Instituto de Ciências Exatas, Universidade Federal Fluminense, Volta Redonda, Brazil"

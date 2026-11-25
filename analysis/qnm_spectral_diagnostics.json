@@ -1,0 +1,166 @@
+{
+  "results": [
+    {
+      "ell": 0,
+      "N": 320,
+      "omega_strings": [
+        "0.220909878160839371750922896268439905598385587",
+        "-0.209791434173761917563477814215558677914511438"
+      ],
+      "normalization": "max absolute Chebyshev coefficient = 1",
+      "finite_matrix_relative_residual": "9.87898384982e-57",
+      "last_ten_coefficient_tail_ratio": "3.21369168664e-39",
+      "continuous_ODE_residual_sup_bound": "6.60055036267e-35",
+      "endpoint_absolute_residuals": [
+        "1.62022444999e-56",
+        "1.62023295903e-56"
+      ],
+      "meaning": "ODE bound follows from exact residual = r_(N+1)*(T_(N+1)-T_(N-1)) plus finite-matrix residual; it is not a QNM error bound.",
+      "provisional_overtone": 0
+    },
+    {
+      "ell": 0,
+      "N": 320,
+      "omega_strings": [
+        "0.172233836626712654293646420547831530792147342",
+        "-0.696104893666391944551962130146342547733139392"
+      ],
+      "normalization": "max absolute Chebyshev coefficient = 1",
+      "finite_matrix_relative_residual": "1.75991666452e-62",
+      "last_ten_coefficient_tail_ratio": "2.07191221516e-42",
+      "continuous_ODE_residual_sup_bound": "1.99159679711e-38",
+      "endpoint_absolute_residuals": [
+        "3.88938454866e-61",
+        "4.6672614584e-61"
+      ],
+      "meaning": "ODE bound follows from exact residual = r_(N+1)*(T_(N+1)-T_(N-1)) plus finite-matrix residual; it is not a QNM error bound.",
+      "provisional_overtone": 1
+    },
+    {
+      "ell": 0,
+      "N": 320,
+      "omega_strings": [
+        "0.151483575411470757021207928648518273241897094",
+        "-1.20215707710963075760783146767939836481956222"
+      ],
+      "normalization": "max absolute Chebyshev coefficient = 1",
+      "finite_matrix_relative_residual": "6.91293754142e-62",
+      "last_ten_coefficient_tail_ratio": "3.24238877921e-48",
+      "continuous_ODE_residual_sup_bound": "1.9709521176e-44",
+      "endpoint_absolute_residuals": [
+        "6.41453732511e-61",
+        "1.39150851863e-60"
+      ],
+      "meaning": "ODE bound follows from exact residual = r_(N+1)*(T_(N+1)-T_(N-1)) plus finite-matrix residual; it is not a QNM error bound.",
+      "provisional_overtone": 2
+    },
+    {
+      "ell": 1,
+      "N": 320,
+      "omega_strings": [
+        "0.58587226653456541724449149110784658307400696",
+        "-0.195319977827156444311113978344560547504084969"
+      ],
+      "normalization": "max absolute Chebyshev coefficient = 1",
+      "finite_matrix_relative_residual": "2.45241921501e-51",
+      "last_ten_coefficient_tail_ratio": "2.57985160246e-54",
+      "continuous_ODE_residual_sup_bound": "7.64145905576e-50",
+      "endpoint_absolute_residuals": [
+        "1.49033825662e-50",
+        "1.49033825663e-50"
+      ],
+      "meaning": "ODE bound follows from exact residual = r_(N+1)*(T_(N+1)-T_(N-1)) plus finite-matrix residual; it is not a QNM error bound.",
+      "provisional_overtone": 0
+    },
+    {
+      "ell": 1,
+      "N": 320,
+      "omega_strings": [
+        "0.528897301209665079267177324470114994421717588",
+        "-0.612514783118094246451411572610995787184262684"
+      ],
+      "normalization": "max absolute Chebyshev coefficient = 1",
+      "finite_matrix_relative_residual": "9.42767668261e-63",
+      "last_ten_coefficient_tail_ratio": "1.06436424125e-51",
+      "continuous_ODE_residual_sup_bound": "7.9514407981e-48",
+      "endpoint_absolute_residuals": [
+        "3.32309161508e-61",
+        "6.22301527786e-61"
+      ],
+      "meaning": "ODE bound follows from exact residual = r_(N+1)*(T_(N+1)-T_(N-1)) plus finite-matrix residual; it is not a QNM error bound.",
+      "provisional_overtone": 1
+    },
+    {
+      "ell": 1,
+      "N": 320,
+      "omega_strings": [
+        "0.459078669862603344005701840691252189304648677",
+        "-1.08026685003821442707073135155341172742798065"
+      ],
+      "normalization": "max absolute Chebyshev coefficient = 1",
+      "finite_matrix_relative_residual": "1.31159773e-62",
+      "last_ten_coefficient_tail_ratio": "7.5642840327e-53",
+      "continuous_ODE_residual_sup_bound": "4.46542406779e-49",
+      "endpoint_absolute_residuals": [
+        "5.60935016808e-61",
+        "6.22301527786e-61"
+      ],
+      "meaning": "ODE bound follows from exact residual = r_(N+1)*(T_(N+1)-T_(N-1)) plus finite-matrix residual; it is not a QNM error bound.",
+      "provisional_overtone": 2
+    },
+    {
+      "ell": 2,
+      "N": 320,
+      "omega_strings": [
+        "0.967287744421425973455558870303517164291090012",
+        "-0.193517551956575725317307466701743747260567623"
+      ],
+      "normalization": "max absolute Chebyshev coefficient = 1",
+      "finite_matrix_relative_residual": "1.13774780557e-49",
+      "last_ten_coefficient_tail_ratio": "1.40729311893e-52",
+      "continuous_ODE_residual_sup_bound": "6.30653988329e-48",
+      "endpoint_absolute_residuals": [
+        "1.68899693128e-48",
+        "1.68899693128e-48"
+      ],
+      "meaning": "ODE bound follows from exact residual = r_(N+1)*(T_(N+1)-T_(N-1)) plus finite-matrix residual; it is not a QNM error bound.",
+      "provisional_overtone": 0
+    },
+    {
+      "ell": 2,
+      "N": 320,
+      "omega_strings": [
+        "0.927701158039531126436544113024192469149581513",
+        "-0.591207873975925052419212578699495968628165684"
+      ],
+      "normalization": "max absolute Chebyshev coefficient = 1",
+      "finite_matrix_relative_residual": "6.51326134112e-61",
+      "last_ten_coefficient_tail_ratio": "1.74077956879e-61",
+      "continuous_ODE_residual_sup_bound": "8.96264770997e-58",
+      "endpoint_absolute_residuals": [
+        "1.29464519778e-59",
+        "1.26006455592e-59"
+      ],
+      "meaning": "ODE bound follows from exact residual = r_(N+1)*(T_(N+1)-T_(N-1)) plus finite-matrix residual; it is not a QNM error bound.",
+      "provisional_overtone": 1
+    },
+    {
+      "ell": 2,
+      "N": 320,
+      "omega_strings": [
+        "0.86108810875315153621312450586619766351035085",
+        "-1.0171168043085489749400098689650146404602344"
+      ],
+      "normalization": "max absolute Chebyshev coefficient = 1",
+      "finite_matrix_relative_residual": "3.49284123479e-62",
+      "last_ten_coefficient_tail_ratio": "1.82099507518e-60",
+      "continuous_ODE_residual_sup_bound": "8.67824364716e-57",
+      "endpoint_absolute_residuals": [
+        "1.25428882854e-60",
+        "2.81866357523e-60"
+      ],
+      "meaning": "ODE bound follows from exact residual = r_(N+1)*(T_(N+1)-T_(N-1)) plus finite-matrix residual; it is not a QNM error bound.",
+      "provisional_overtone": 2
+    }
+  ]
+}

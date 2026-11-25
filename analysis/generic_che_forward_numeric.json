@@ -1,0 +1,301 @@
+{
+  "method": "forward regular-solution transport in bounded q gauge; no infinity solution propagation",
+  "working_decimal_digits": 75,
+  "cases": [
+    {
+      "name": "complex_A",
+      "parameters": [
+        {
+          "real": "-1.2",
+          "imag": "0.3"
+        },
+        {
+          "real": "0.3",
+          "imag": "0.2"
+        },
+        {
+          "real": "-0.4",
+          "imag": "0.1"
+        },
+        {
+          "real": "0.2",
+          "imag": "-0.15"
+        },
+        {
+          "real": "0.6",
+          "imag": "0.05"
+        }
+      ],
+      "runs": [
+        {
+          "settings": {
+            "R": 40,
+            "N": 24,
+            "taylor_order": 44,
+            "step_fraction": ".20"
+          },
+          "forward_coefficient": {
+            "real": "-0.306015253608359116247660651656680125878152845",
+            "imag": "0.57556750436259688761763045763876504610749736"
+          },
+          "backward_coefficient": {
+            "real": "-0.306015253608359116247660651656677199278532997",
+            "imag": "0.575567504362596887617630457638767057956487229"
+          },
+          "difference": "3.551411225545525827495469e-33",
+          "elapsed_seconds": 0.9538536071777344,
+          "q_at_R": {
+            "real": "-0.307547691394961127949516186087859793562882708",
+            "imag": "0.584034080943874986454887751934928539079681332"
+          },
+          "qprime_at_R": {
+            "real": "-0.0000153744622999038777824901683949404448711987349",
+            "imag": "-0.000226636382658135804985904975241487769441218363"
+          },
+          "ray": {
+            "real": "0.970142500145331894075625848464488711799340994",
+            "imag": "0.242535625036332973518906462116122177949835249"
+          },
+          "starting_log_angle": "0.2449786631268641541720825",
+          "steps": 64,
+          "sigma": "1.212757549833345435907568",
+          "transformed_potential_tail_majorant": "0.02520403401530305690306107",
+          "q_tail_majorant_from_endpoint": "0.6741141091161720113112282",
+          "coefficient_analytic_tail_bound": "3.268014157140845816734428e-20",
+          "qualification": "Tail bound assumes exact q(R),qprime(R); computed states and Taylor propagation are not interval certified."
+        },
+        {
+          "settings": {
+            "R": 96,
+            "N": 48,
+            "taylor_order": 64,
+            "step_fraction": ".16"
+          },
+          "forward_coefficient": {
+            "real": "-0.306015253608359116222223426391789609630633911",
+            "imag": "0.575567504362596887600953170198668974089654083"
+          },
+          "backward_coefficient": {
+            "real": "-0.306015253608359116222223426391789609630633911",
+            "imag": "0.575567504362596887600953170198668974089654083"
+          },
+          "difference": "5.52985094206782354326822e-46",
+          "elapsed_seconds": 3.871284008026123,
+          "q_at_R": {
+            "real": "-0.306637168208876449967720409409182348068821749",
+            "imag": "0.578984033904433582646604951062798493480047462"
+          },
+          "qprime_at_R": {
+            "real": "-0.00000242166979904657580857618523773551748946632206",
+            "imag": "-0.0000368966169391164601655523444555531522946557669"
+          },
+          "ray": {
+            "real": "0.970142500145331894075625848464488711799340994",
+            "imag": "0.242535625036332973518906462116122177949835249"
+          },
+          "starting_log_angle": "0.2449786631268641541720825",
+          "steps": 139,
+          "sigma": "1.226954900237340100356624",
+          "transformed_potential_tail_majorant": "0.01038994983831593412354955",
+          "q_tail_majorant_from_endpoint": "0.6607728543625122487695888",
+          "coefficient_analytic_tail_bound": "2.503770414909051110004133e-42",
+          "qualification": "Tail bound assumes exact q(R),qprime(R); computed states and Taylor propagation are not interval certified."
+        }
+      ],
+      "forward_truncation_refinement": {
+        "settings": {
+          "R": 128,
+          "N": 64,
+          "taylor_order": 80,
+          "step_fraction": ".14"
+        },
+        "coefficient": {
+          "real": "-0.306015253608359116222223426391789609630631748",
+          "imag": "0.575567504362596887600953170198668974089652972"
+        },
+        "difference_from_R96_N48": "2.431004311602352275173502e-42",
+        "difference_divided_by_previous_tail_bound": "0.9709373899166621285609798",
+        "q_at_R": {
+          "real": "-0.306479517453681696885238685996649452799093434",
+          "imag": "0.578115721929111185861111038539586515753213098"
+        },
+        "qprime_at_R": {
+          "real": "-0.00000134043112107847664333113458835328288924648162",
+          "imag": "-0.0000205256367828904483458864495389780195491137554"
+        },
+        "ray": {
+          "real": "0.970142500145331894075625848464488711799340994",
+          "imag": "0.242535625036332973518906462116122177949835249"
+        },
+        "starting_log_angle": "0.2449786631268641541720825",
+        "steps": 185,
+        "sigma": "1.229461701248791486001978",
+        "transformed_potential_tail_majorant": "0.007777745305748007363858761",
+        "q_tail_majorant_from_endpoint": "0.6584991349125078420473258",
+        "coefficient_analytic_tail_bound": "1.11208985458270273874484e-55",
+        "qualification": "Tail bound assumes exact q(R),qprime(R); computed states and Taylor propagation are not interval certified."
+      },
+      "precision_transport_check": {
+        "baseline_dps": 75,
+        "refined_dps": 95,
+        "refined_settings": {
+          "R": 128,
+          "N": 64,
+          "taylor_order": 92,
+          "step_fraction": ".12",
+          "circle_radius": 3
+        },
+        "coefficient_change": "5.535936633968796307675854e-71",
+        "qualification": "Combined precision, Taylor-order/step, and homotopic-path test at fixed terminal R,N."
+      }
+    },
+    {
+      "name": "complex_B",
+      "parameters": [
+        {
+          "real": "0.8",
+          "imag": "0.6"
+        },
+        {
+          "real": "-0.2",
+          "imag": "0.15"
+        },
+        {
+          "real": "0.4",
+          "imag": "-0.25"
+        },
+        {
+          "real": "0.35",
+          "imag": "0.2"
+        },
+        {
+          "real": "-0.1",
+          "imag": "0.4"
+        }
+      ],
+      "runs": [
+        {
+          "settings": {
+            "R": 40,
+            "N": 24,
+            "taylor_order": 44,
+            "step_fraction": ".20"
+          },
+          "forward_coefficient": {
+            "real": "0.553776247131803505428559702099559536940759237",
+            "imag": "0.844387692756856777924855390526224801196248213"
+          },
+          "backward_coefficient": {
+            "real": "0.553776247131803505428559702098809173206839397",
+            "imag": "0.844387692756856777924855390527076206578087673"
+          },
+          "difference": "1.134873057838330318516501e-30",
+          "elapsed_seconds": 0.9209325313568115,
+          "q_at_R": {
+            "real": "0.540941723732187841255277376153022276598808185",
+            "imag": "0.871038841668125740242064976604490090208276766"
+          },
+          "qprime_at_R": {
+            "real": "-0.000661933557943843719041384971533234675966330825",
+            "imag": "0.000333832389895012536003382425754807819652415069"
+          },
+          "ray": {
+            "real": "-0.8",
+            "imag": "0.6"
+          },
+          "starting_log_angle": "2.498091544796508851659834",
+          "steps": 64,
+          "sigma": "0.9078430376204494372659733",
+          "transformed_potential_tail_majorant": "0.09199169888860246887241587",
+          "q_tail_majorant_from_endpoint": "1.135590147667354764884005",
+          "coefficient_analytic_tail_bound": "9.98270712940908999497107e-16",
+          "qualification": "Tail bound assumes exact q(R),qprime(R); computed states and Taylor propagation are not interval certified."
+        },
+        {
+          "settings": {
+            "R": 96,
+            "N": 48,
+            "taylor_order": 64,
+            "step_fraction": ".16"
+          },
+          "forward_coefficient": {
+            "real": "0.553776247131803972838220847997246401093471428",
+            "imag": "0.844387692756856058900040384060636118615562669"
+          },
+          "backward_coefficient": {
+            "real": "0.553776247131803972838220847997246401093471428",
+            "imag": "0.844387692756856058900040384060636118615562669"
+          },
+          "difference": "5.60552166089926392672994e-46",
+          "elapsed_seconds": 3.218203067779541,
+          "q_at_R": {
+            "real": "0.548508883322083569377211404921854153198946864",
+            "imag": "0.855512000045070429951516154417562555018336379"
+          },
+          "qprime_at_R": {
+            "real": "-0.000113806714317173523474417624998045447691230001",
+            "imag": "0.0000593124346677420646753645591548046565475850181"
+          },
+          "ray": {
+            "real": "-0.8",
+            "imag": "0.6"
+          },
+          "starting_log_angle": "2.498091544796508851659834",
+          "steps": 122,
+          "sigma": "0.9618251753435932377328538",
+          "transformed_potential_tail_majorant": "0.03796447677426351827713945",
+          "q_tail_majorant_from_endpoint": "1.057303006849824071352556",
+          "coefficient_analytic_tail_bound": "2.544090333929807978515665e-35",
+          "qualification": "Tail bound assumes exact q(R),qprime(R); computed states and Taylor propagation are not interval certified."
+        }
+      ],
+      "forward_truncation_refinement": {
+        "settings": {
+          "R": 128,
+          "N": 64,
+          "taylor_order": 80,
+          "step_fraction": ".14"
+        },
+        "coefficient": {
+          "real": "0.553776247131803972838220847997246412619512908",
+          "imag": "0.844387692756856058900040384060636097621273035"
+        },
+        "difference_from_R96_N48": "2.395015301487093859944039e-35",
+        "difference_divided_by_previous_tail_bound": "0.9414034044096064978531476",
+        "q_at_R": {
+          "real": "0.549836310204767858413042530005098983283605374",
+          "imag": "0.852733513049762274615577440786388694563553546"
+        },
+        "qprime_at_R": {
+          "real": "-0.0000639073117557592824503534300861764198358160755",
+          "imag": "0.0000334959739492074241010184493948511959731356139"
+        },
+        "ray": {
+          "real": "-0.8",
+          "imag": "0.6"
+        },
+        "starting_log_angle": "2.498091544796508851659834",
+        "steps": 159,
+        "sigma": "0.9713983499342455455640135",
+        "transformed_potential_tail_majorant": "0.0284251589169193027354813",
+        "q_tail_majorant_from_endpoint": "1.044835549298658508869825",
+        "coefficient_analytic_tail_bound": "4.646714909136051634889528e-47",
+        "qualification": "Tail bound assumes exact q(R),qprime(R); computed states and Taylor propagation are not interval certified."
+      },
+      "precision_transport_check": {
+        "baseline_dps": 75,
+        "refined_dps": 95,
+        "refined_settings": {
+          "R": 128,
+          "N": 64,
+          "taylor_order": 92,
+          "step_fraction": ".12",
+          "circle_radius": 3
+        },
+        "coefficient_change": "3.777162737344438526574862e-68",
+        "qualification": "Combined precision, Taylor-order/step, and homotopic-path test at fixed terminal R,N."
+      }
+    }
+  ],
+  "qualification": "Forward and backward approximants share PN and agree algebraically with exact transport. This checks independent equations/directions and normalization, not an independent asymptotic model."
+}

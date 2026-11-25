@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "z": "0.3",
+  "paths": [
+    {
+      "slope": "0.0",
+      "epsilon": "1e-10",
+      "limiting_solution_error": "2.028352899e-11",
+      "frame_wronskian_error": "1.428734239e-101"
+    },
+    {
+      "slope": "0.0",
+      "epsilon": "1e-20",
+      "limiting_solution_error": "2.028352899e-21",
+      "frame_wronskian_error": "5.714936956e-101"
+    },
+    {
+      "slope": "0.0",
+      "epsilon": "1e-30",
+      "limiting_solution_error": "2.028352899e-31",
+      "frame_wronskian_error": "1.428734239e-101"
+    },
+    {
+      "slope": "1.0",
+      "epsilon": "1e-10",
+      "limiting_solution_error": "8.405382555e-11",
+      "frame_wronskian_error": "1.142987391e-100"
+    },
+    {
+      "slope": "1.0",
+      "epsilon": "1e-20",
+      "limiting_solution_error": "8.405382555e-21",
+      "frame_wronskian_error": "0.0"
+    },
+    {
+      "slope": "1.0",
+      "epsilon": "1e-30",
+      "limiting_solution_error": "8.405382555e-31",
+      "frame_wronskian_error": "5.714936956e-101"
+    },
+    {
+      "slope": "(-2.0 + 1.0j)",
+      "epsilon": "1e-10",
+      "limiting_solution_error": "1.826608902e-10",
+      "frame_wronskian_error": "1.025889706e-100"
+    },
+    {
+      "slope": "(-2.0 + 1.0j)",
+      "epsilon": "1e-20",
+      "limiting_solution_error": "1.826608903e-20",
+      "frame_wronskian_error": "4.345160654e-101"
+    },
+    {
+      "slope": "(-2.0 + 1.0j)",
+      "epsilon": "1e-30",
+      "limiting_solution_error": "1.826608903e-30",
+      "frame_wronskian_error": "7.147285341e-101"
+    }
+  ],
+  "base_regularized_solution": "identically zero by recurrence",
+  "provenance": "independent checks of classical resonance mechanisms; no novelty claim"
+}

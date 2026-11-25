@@ -1,0 +1,961 @@
+{
+  "method": "scalar Schwarzschild Leaver three-term recurrence; overtone-inverted continued fraction",
+  "conventions": {
+    "time": "exp(-i omega t)",
+    "frequency": "Omega=2M omega",
+    "radial": "z=r/(2M)>1",
+    "tortoise": "x=r_*/(2M)=z+log(z-1)",
+    "finite_tail": "a_(N+1)=0; depth N includes beta_N",
+    "inversion": "inversion index equals requested overtone n"
+  },
+  "recurrence": {
+    "alpha_n": "(n+1)(n+1-2i Omega)",
+    "beta_n": "-2n^2+(8i Omega-2)n+8Omega^2+4iOmega-l(l+1)-1",
+    "gamma_n": "(n-2i Omega)^2"
+  },
+  "derivation": "Direct exact substitution of stated gauge into radial ODE; symbolic self-check included.",
+  "self_check": "Exact gauge equation and all recurrence coefficients verified symbolically; CF derivative independently checked.",
+  "working_dps": 60,
+  "target_successive_depth_difference": "1e-19",
+  "caveat": "Depth convergence and residuals are empirical; no certified bound on the infinite-CF truncation error. Coarse seeds are not ground truth.",
+  "modes": [
+    {
+      "ell": 0,
+      "overtone": 0,
+      "coarse_seed": [
+        ".22",
+        "-.21"
+      ],
+      "depth_study": [
+        {
+          "depth": 50,
+          "omega": {
+            "real": "0.220884111179410892900433037716976028493515547834",
+            "imag": "-0.209784913479642927771377669115853149689879634113"
+          },
+          "absolute_cf_residual": "8.69692824145e-62",
+          "absolute_cf_derivative": "3.38019377859",
+          "newton_iterations": 6,
+          "successive_root_difference": null
+        },
+        {
+          "depth": 100,
+          "omega": {
+            "real": "0.220910024260586294172923998260103453874477867612",
+            "imag": "-0.209792152366423055699200402874477504048484273492"
+          },
+          "absolute_cf_residual": "1.94469227433e-62",
+          "absolute_cf_derivative": "3.3825848606",
+          "newton_iterations": 5,
+          "successive_root_difference": "2.69051901651e-5"
+        },
+        {
+          "depth": 200,
+          "omega": {
+            "real": "0.220909875786420006926082204245163486065716308944",
+            "imag": "-0.209791438010998211321745493351644263848733497595"
+          },
+          "absolute_cf_residual": "7.0116877101e-62",
+          "absolute_cf_derivative": "3.38259933582",
+          "newton_iterations": 5,
+          "successive_root_difference": "7.29621991897e-7"
+        },
+        {
+          "depth": 400,
+          "omega": {
+            "real": "0.220909878159257624873103633581079451621009510959",
+            "imag": "-0.209791434170816783144064631298037955945605614851"
+          },
+          "absolute_cf_residual": "8.96458843948e-62",
+          "absolute_cf_derivative": "3.38260014799",
+          "newton_iterations": 4,
+          "successive_root_difference": "4.51412801795e-9"
+        },
+        {
+          "depth": 800,
+          "omega": {
+            "real": "0.220909878160839469783242550485130861871074576843",
+            "imag": "-0.209791434173761841144494133016362115810678513434"
+          },
+          "absolute_cf_residual": "4.86173068583e-62",
+          "absolute_cf_derivative": "3.38260014812",
+          "newton_iterations": 4,
+          "successive_root_difference": "3.34299266311e-12"
+        },
+        {
+          "depth": 1600,
+          "omega": {
+            "real": "0.220909878160839371750858897436079759308775021612",
+            "imag": "-0.209791434173761917563457684801033450966709517591"
+          },
+          "absolute_cf_residual": "3.50584385505e-62",
+          "absolute_cf_derivative": "3.38260014812",
+          "newton_iterations": 3,
+          "successive_root_difference": "1.24298858543e-16"
+        },
+        {
+          "depth": 3200,
+          "omega": {
+            "real": "0.220909878160839371750923012335969362191182022832",
+            "imag": "-0.209791434173761917563478133710744203979651769351"
+          },
+          "absolute_cf_residual": "1.13810197449e-61",
+          "absolute_cf_derivative": "3.38260014812",
+          "newton_iterations": 3,
+          "successive_root_difference": "6.72969412099e-23"
+        }
+      ],
+      "final_depth": 3200,
+      "omega": {
+        "real": "0.22090987816083937175092301233596936219118202283214422716267767316",
+        "imag": "-0.20979143417376191756347813371074420397965176935106029983107783503"
+      },
+      "Momega": {
+        "real": "0.1104549390804196858754615061679846810955910114160721136",
+        "imag": "-0.1048957170868809587817390668553721019898258846755301499"
+      },
+      "precision_check": {
+        "dps_low": 60,
+        "dps_high": 85,
+        "absolute_root_difference": "3.67390572657e-62",
+        "cf_residual_high_precision": "8.04305873354e-87"
+      },
+      "double_depth_evaluation": {
+        "depth": 6400,
+        "absolute_cf_residual": "3.11691620781e-31",
+        "newton_frequency_correction_estimate": "9.21455706062e-32"
+      },
+      "reached_successive_depth_target": true,
+      "elapsed_seconds": 3.686
+    },
+    {
+      "ell": 0,
+      "overtone": 1,
+      "coarse_seed": [
+        ".17",
+        "-.70"
+      ],
+      "depth_study": [
+        {
+          "depth": 50,
+          "omega": {
+            "real": "0.173363423895992011498725757440039497132950418533",
+            "imag": "-0.693057187199491668593639753527288750213195004288"
+          },
+          "absolute_cf_residual": "1.7929176879e-61",
+          "absolute_cf_derivative": "3.80479371849",
+          "newton_iterations": 6,
+          "successive_root_difference": null
+        },
+        {
+          "depth": 100,
+          "omega": {
+            "real": "0.171725300775370924022521567188842275367781917408",
+            "imag": "-0.695738846909498238676417052140201312579024855949"
+          },
+          "absolute_cf_residual": "3.13572207136e-61",
+          "absolute_cf_derivative": "3.67802861943",
+          "newton_iterations": 6,
+          "successive_root_difference": "0.00314241088316"
+        },
+        {
+          "depth": 200,
+          "omega": {
+            "real": "0.17217845076632667406295744314596001291344218454",
+            "imag": "-0.696113584433807948636225032117091993137640927385"
+          },
+          "absolute_cf_residual": "7.77876909733e-62",
+          "absolute_cf_derivative": "3.72986901151",
+          "newton_iterations": 6,
+          "successive_root_difference": "0.00058802476685"
+        },
+        {
+          "depth": 400,
+          "omega": {
+            "real": "0.172235615525970704227814015276201014999018355782",
+            "imag": "-0.696105486722982966407184374363730426004105910182"
+          },
+          "absolute_cf_residual": "1.40233754202e-61",
+          "absolute_cf_derivative": "3.73958658677",
+          "newton_iterations": 5,
+          "successive_root_difference": "5.77354541488e-5"
+        },
+        {
+          "depth": 800,
+          "omega": {
+            "real": "0.172233840338726148783679301998403735937023450734",
+            "imag": "-0.696104878639179942299334673563129204027683269476"
+          },
+          "absolute_cf_residual": "1.26404997832e-61",
+          "absolute_cf_derivative": "3.73916561861",
+          "newton_iterations": 5,
+          "successive_root_difference": "1.87644761844e-6"
+        },
+        {
+          "depth": 1600,
+          "omega": {
+            "real": "0.172233836688321133407806466635447081233236449143",
+            "imag": "-0.696104893605177310526398604066837870505689713409"
+          },
+          "absolute_cf_residual": "2.7295056773e-61",
+          "absolute_cf_derivative": "3.73916405124",
+          "newton_iterations": 4,
+          "successive_root_difference": "1.54047568628e-8"
+        },
+        {
+          "depth": 3200,
+          "omega": {
+            "real": "0.172233836672797439073472678658052051021022778774",
+            "imag": "-0.696104893612921735440040921621841817512107936444"
+          },
+          "absolute_cf_residual": "2.73815158327e-61",
+          "absolute_cf_derivative": "3.73916404336",
+          "newton_iterations": 4,
+          "successive_root_difference": "1.73482334267e-11"
+        },
+        {
+          "depth": 6400,
+          "omega": {
+            "real": "0.172233836672798344939128746240602392639733908076",
+            "imag": "-0.696104893612920991048900569616961411976407050845"
+          },
+          "absolute_cf_residual": "4.70358310704e-61",
+          "absolute_cf_derivative": "3.73916404336",
+          "newton_iterations": 3,
+          "successive_root_difference": "1.1724805997e-15"
+        },
+        {
+          "depth": 12800,
+          "omega": {
+            "real": "0.172233836672798344939925390786717136053646217929",
+            "imag": "-0.69610489361292099105015364096460650994243144106"
+          },
+          "absolute_cf_residual": "1.13810197449e-61",
+          "absolute_cf_derivative": "3.73916404336",
+          "newton_iterations": 3,
+          "successive_root_difference": "1.48486711026e-21"
+        }
+      ],
+      "final_depth": 12800,
+      "omega": {
+        "real": "0.172233836672798344939925390786717136053646217928867642116568989",
+        "imag": "-0.69610489361292099105015364096460650994243144106018899188979350502"
+      },
+      "Momega": {
+        "real": "0.08611691833639917246996269539335856802682310896443382106",
+        "imag": "-0.3480524468064604955250768204823032549712157205300944959"
+      },
+      "precision_check": {
+        "dps_low": 60,
+        "dps_high": 85,
+        "absolute_root_difference": "1.87012640107e-62",
+        "cf_residual_high_precision": "1.3069970442e-86"
+      },
+      "double_depth_evaluation": {
+        "depth": 25600,
+        "absolute_cf_residual": "2.53670799064e-29",
+        "newton_frequency_correction_estimate": "6.7841580664e-30"
+      },
+      "reached_successive_depth_target": true,
+      "elapsed_seconds": 15.005
+    },
+    {
+      "ell": 0,
+      "overtone": 2,
+      "coarse_seed": [
+        ".15",
+        "-1.20"
+      ],
+      "depth_study": [
+        {
+          "depth": 50,
+          "omega": {
+            "real": "0.143043320695785873778703945133444544408732603841",
+            "imag": "-1.19060369196977609350682973502551172603297338681"
+          },
+          "absolute_cf_residual": "1.36131931824e-60",
+          "absolute_cf_derivative": "3.67175646664",
+          "newton_iterations": 7,
+          "successive_root_difference": null
+        },
+        {
+          "depth": 100,
+          "omega": {
+            "real": "0.15148406743099532415565997046365492340939996896",
+            "imag": "-1.19824571451069163143314709109921589529055973333"
+          },
+          "absolute_cf_residual": "2.87305249029e-61",
+          "absolute_cf_derivative": "4.33725316889",
+          "newton_iterations": 6,
+          "successive_root_difference": "0.0113862510935"
+        },
+        {
+          "depth": 200,
+          "omega": {
+            "real": "0.151029023888251523690093656698535682486288150211",
+            "imag": "-1.20151168017986658431115667276219018887098082077"
+          },
+          "absolute_cf_residual": "6.81076240782e-62",
+          "absolute_cf_derivative": "4.31335299367",
+          "newton_iterations": 6,
+          "successive_root_difference": "0.00329751366609"
+        },
+        {
+          "depth": 400,
+          "omega": {
+            "real": "0.151535128111921863371107045686147463903092290067",
+            "imag": "-1.20209751609110819660570868079498679375562305413"
+          },
+          "absolute_cf_residual": "1.04912329487e-60",
+          "absolute_cf_derivative": "4.4022086229",
+          "newton_iterations": 6,
+          "successive_root_difference": "0.000774173882353"
+        },
+        {
+          "depth": 800,
+          "omega": {
+            "real": "0.151482448532872659688461677455397094466043928017",
+            "imag": "-1.20215441574806189299346534457690478890560532666"
+          },
+          "absolute_cf_residual": "1.0376150923e-60",
+          "absolute_cf_derivative": "4.39130680726",
+          "newton_iterations": 5,
+          "successive_root_difference": "7.75416598368e-5"
+        },
+        {
+          "depth": 1600,
+          "omega": {
+            "real": "0.151483898168521460757144886903215899666918739398",
+            "imag": "-1.20215719738914864030145434881990822665674787771"
+          },
+          "absolute_cf_residual": "5.0075826064e-61",
+          "absolute_cf_derivative": "4.39178042016",
+          "newton_iterations": 5,
+          "successive_root_difference": "3.13671335154e-6"
+        },
+        {
+          "depth": 3200,
+          "omega": {
+            "real": "0.151483871056562389832431665371919470163805577997",
+            "imag": "-1.2021571800233819056436231642911178902940743941"
+          },
+          "absolute_cf_residual": "4.04379399903e-61",
+          "absolute_cf_derivative": "4.39176842142",
+          "newton_iterations": 4,
+          "successive_root_difference": "3.21967106852e-8"
+        },
+        {
+          "depth": 6400,
+          "omega": {
+            "real": "0.151483871070346250382619243349933989542187391991",
+            "imag": "-1.20215718007160595204917838371694640919563618189"
+          },
+          "absolute_cf_residual": "5.56556693475e-61",
+          "absolute_cf_derivative": "4.39176842946",
+          "newton_iterations": 4,
+          "successive_root_difference": "5.01552934733e-11"
+        },
+        {
+          "depth": 12800,
+          "omega": {
+            "real": "0.15148387107035152594111272153247140610191588003",
+            "imag": "-1.20215718007160702817420390599558969596290574411"
+          },
+          "absolute_cf_residual": "5.09259037304e-61",
+          "absolute_cf_derivative": "4.39176842947",
+          "newton_iterations": 3,
+          "successive_root_difference": "5.38419562132e-15"
+        },
+        {
+          "depth": 25600,
+          "omega": {
+            "real": "0.151483871070351525940443288114577279367597725485",
+            "imag": "-1.20215718007160702818731203749796169736595710112"
+          },
+          "absolute_cf_residual": "1.82687253166e-61",
+          "absolute_cf_derivative": "4.39176842947",
+          "newton_iterations": 3,
+          "successive_root_difference": "1.31252143824e-20"
+        }
+      ],
+      "final_depth": 25600,
+      "omega": {
+        "real": "0.15148387107035152594044328811457727936759772548460611658953675107",
+        "imag": "-1.2021571800716070281873120374979616973659571011241395344145922173"
+      },
+      "Momega": {
+        "real": "0.07574193553517576297022164405728863968379886274230305829",
+        "imag": "-0.6010785900358035140936560187489808486829785505620697672"
+      },
+      "precision_check": {
+        "dps_low": 60,
+        "dps_high": 85,
+        "absolute_root_difference": "1.35291667993e-61",
+        "cf_residual_high_precision": "7.75615987481e-86"
+      },
+      "double_depth_evaluation": {
+        "depth": 51200,
+        "absolute_cf_residual": "6.65213576948e-28",
+        "newton_frequency_correction_estimate": "1.51468272435e-28"
+      },
+      "reached_successive_depth_target": true,
+      "elapsed_seconds": 34.765
+    },
+    {
+      "ell": 1,
+      "overtone": 0,
+      "coarse_seed": [
+        ".59",
+        "-.20"
+      ],
+      "depth_study": [
+        {
+          "depth": 50,
+          "omega": {
+            "real": "0.585872264234526541022330498333054417257638287062",
+            "imag": "-0.195319979512204170261686642540429430836691565471"
+          },
+          "absolute_cf_residual": "4.55240789795e-61",
+          "absolute_cf_derivative": "8.99681269507",
+          "newton_iterations": 6,
+          "successive_root_difference": null
+        },
+        {
+          "depth": 100,
+          "omega": {
+            "real": "0.585872266534636915861150720337132866220796882671",
+            "imag": "-0.195319977825812584246825758093512437188000015656"
+          },
+          "absolute_cf_residual": "1.40233754202e-61",
+          "absolute_cf_derivative": "8.99681321561",
+          "newton_iterations": 4,
+          "successive_root_difference": "2.85209121836e-9"
+        },
+        {
+          "depth": 200,
+          "omega": {
+            "real": "0.585872266534565394115347369416408459818610745364",
+            "imag": "-0.195319977827156459077368696246994447996948988648"
+          },
+          "absolute_cf_residual": "2.13916150176e-61",
+          "absolute_cf_derivative": "8.99681321534",
+          "newton_iterations": 4,
+          "successive_root_difference": "1.34577669778e-12"
+        },
+        {
+          "depth": 400,
+          "omega": {
+            "real": "0.585872266534565417244497444083009148982728026537",
+            "imag": "-0.19531997782715644431111666886323627795412830741"
+          },
+          "absolute_cf_residual": "3.39625904896e-61",
+          "absolute_cf_derivative": "8.99681321534",
+          "newton_iterations": 3,
+          "successive_root_difference": "2.74408414979e-17"
+        },
+        {
+          "depth": 800,
+          "omega": {
+            "real": "0.58587226653456541724449149110784525571844735567",
+            "imag": "-0.195319977827156444311113978344563076798193128788"
+          },
+          "absolute_cf_residual": "8.69692824145e-61",
+          "absolute_cf_derivative": "8.99681321534",
+          "newton_iterations": 3,
+          "successive_root_difference": "6.53274858178e-24"
+        }
+      ],
+      "final_depth": 800,
+      "omega": {
+        "real": "0.58587226653456541724449149110784525571844735566982031173052593009",
+        "imag": "-0.1953199778271564443111139783445630767981931287876401218415556302"
+      },
+      "Momega": {
+        "real": "0.2929361332672827086222457455539226278592236778349101559",
+        "imag": "-0.09765998891357822215555698917228153839909656439382006092"
+      },
+      "precision_check": {
+        "dps_low": 60,
+        "dps_high": 85,
+        "absolute_root_difference": "6.25458383667e-62",
+        "cf_residual_high_precision": "4.14529758893e-86"
+      },
+      "double_depth_evaluation": {
+        "depth": 1600,
+        "absolute_cf_residual": "2.56987815388e-32",
+        "newton_frequency_correction_estimate": "2.8564315968e-33"
+      },
+      "reached_successive_depth_target": true,
+      "elapsed_seconds": 0.875
+    },
+    {
+      "ell": 1,
+      "overtone": 1,
+      "coarse_seed": [
+        ".53",
+        "-.61"
+      ],
+      "depth_study": [
+        {
+          "depth": 50,
+          "omega": {
+            "real": "0.528895430987734038782840746945871790960776568276",
+            "imag": "-0.612516111717680129283594793299256346113609162987"
+          },
+          "absolute_cf_residual": "2.09956979195e-61",
+          "absolute_cf_derivative": "10.085897335",
+          "newton_iterations": 6,
+          "successive_root_difference": null
+        },
+        {
+          "depth": 100,
+          "omega": {
+            "real": "0.528897303592344864358321980123638009118473586695",
+            "imag": "-0.612514795070356396494403012597389091294062980356"
+          },
+          "absolute_cf_residual": "3.26315944758e-61",
+          "absolute_cf_derivative": "10.0863065521",
+          "newton_iterations": 5,
+          "successive_root_difference": "2.28915010508e-6"
+        },
+        {
+          "depth": 200,
+          "omega": {
+            "real": "0.528897301215732861984814664228141035516699122485",
+            "imag": "-0.612514783122678571373698774843807551508179802371"
+          },
+          "absolute_cf_residual": "5.60935016808e-61",
+          "absolute_cf_derivative": "10.0863073859",
+          "newton_iterations": 4,
+          "successive_root_difference": "1.21817605469e-8"
+        },
+        {
+          "depth": 400,
+          "omega": {
+            "real": "0.528897301209664977718513630317767452765257787802",
+            "imag": "-0.612514783118094042350816064445438017823930238874"
+          },
+          "absolute_cf_residual": "7.39047031618e-61",
+          "absolute_cf_derivative": "10.0863073844",
+          "newton_iterations": 4,
+          "successive_root_difference": "7.60507237512e-12"
+        },
+        {
+          "depth": 800,
+          "omega": {
+            "real": "0.528897301209665079267101449340702913366772492045",
+            "imag": "-0.612514783118094246451465057167115177021930347043"
+          },
+          "absolute_cf_residual": "1.09526063331e-60",
+          "absolute_cf_derivative": "10.0863073844",
+          "newton_iterations": 3,
+          "successive_root_difference": "2.27967520948e-16"
+        },
+        {
+          "depth": 1600,
+          "omega": {
+            "real": "0.52889730120966507926717732447775532224913777874",
+            "imag": "-0.612514783118094246451411572601718092324629624951"
+          },
+          "absolute_cf_residual": "2.41525769941e-61",
+          "absolute_cf_derivative": "10.0863073844",
+          "newton_iterations": 3,
+          "successive_root_difference": "9.28312186629e-23"
+        }
+      ],
+      "final_depth": 1600,
+      "omega": {
+        "real": "0.52889730120966507926717732447775532224913777874011645681585911973",
+        "imag": "-0.6125147831180942464514115726017180923246296249509447986841165412"
+      },
+      "Momega": {
+        "real": "0.2644486506048325396335886622388776611245688893700582284",
+        "imag": "-0.3062573915590471232257057863008590461623148124754723993"
+      },
+      "precision_check": {
+        "dps_low": 60,
+        "dps_high": 85,
+        "absolute_root_difference": "4.16255605506e-62",
+        "cf_residual_high_precision": "1.75941909796e-86"
+      },
+      "double_depth_evaluation": {
+        "depth": 3200,
+        "absolute_cf_residual": "8.69156122245e-31",
+        "newton_frequency_correction_estimate": "8.61718852222e-32"
+      },
+      "reached_successive_depth_target": true,
+      "elapsed_seconds": 1.808
+    },
+    {
+      "ell": 1,
+      "overtone": 2,
+      "coarse_seed": [
+        ".46",
+        "-1.08"
+      ],
+      "depth_study": [
+        {
+          "depth": 50,
+          "omega": {
+            "real": "0.458975173885361711715611027014979901185536395895",
+            "imag": "-1.08036200601077042798380638728095062815193330414"
+          },
+          "absolute_cf_residual": "7.77876909733e-61",
+          "absolute_cf_derivative": "10.7957406456",
+          "newton_iterations": 6,
+          "successive_root_difference": null
+        },
+        {
+          "depth": 100,
+          "omega": {
+            "real": "0.459075902449962990847715906522157105017700601161",
+            "imag": "-1.08026432245599933089280752466307082891114375407"
+          },
+          "absolute_cf_residual": "6.27144414271e-61",
+          "absolute_cf_derivative": "10.8152354029",
+          "newton_iterations": 5,
+          "successive_root_difference": "0.000140315076166"
+        },
+        {
+          "depth": 200,
+          "omega": {
+            "real": "0.459078660571659594106077858823115682348006186775",
+            "imag": "-1.08026682904474045782535141545075283437202428062"
+          },
+          "absolute_cf_residual": "2.3336307292e-61",
+          "absolute_cf_derivative": "10.8157312441",
+          "newton_iterations": 5,
+          "successive_root_difference": "3.72695886889e-6"
+        },
+        {
+          "depth": 400,
+          "omega": {
+            "real": "0.459078669876515207015729660743097056312178128293",
+            "imag": "-1.08026685004864718411683110229499712662227680608"
+          },
+          "absolute_cf_residual": "1.84899230659e-60",
+          "absolute_cf_derivative": "10.8157327492",
+          "newton_iterations": 4,
+          "successive_root_difference": "2.29726889097e-8"
+        },
+        {
+          "depth": 800,
+          "omega": {
+            "real": "0.459078669862603567027475708633578348703999075838",
+            "imag": "-1.08026685003821507060445877047155387743572420057"
+          },
+          "absolute_cf_residual": "3.88938454866e-61",
+          "absolute_cf_derivative": "10.8157327433",
+          "newton_iterations": 4,
+          "successive_root_difference": "1.73885801461e-11"
+        },
+        {
+          "depth": 1600,
+          "omega": {
+            "real": "0.459078669862603343695898828592462596230581346956",
+            "imag": "-1.08026685003821442694026358116597633024732536441"
+          },
+          "absolute_cf_residual": "5.44513836813e-61",
+          "absolute_cf_derivative": "10.8157327433",
+          "newton_iterations": 3,
+          "successive_root_difference": "6.81307998926e-16"
+        },
+        {
+          "depth": 3200,
+          "omega": {
+            "real": "0.459078669862603343695496136572878120855444862576",
+            "imag": "-1.0802668500382144269402435594695940600173994751"
+          },
+          "absolute_cf_residual": "5.60935016808e-61",
+          "absolute_cf_derivative": "10.8157327433",
+          "newton_iterations": 3,
+          "successive_root_difference": "4.03189447981e-22"
+        }
+      ],
+      "final_depth": 3200,
+      "omega": {
+        "real": "0.4590786698626033436954961365728781208554448625759399523898707782",
+        "imag": "-1.0802668500382144269402435594695940600173994751007542263674780354"
+      },
+      "Momega": {
+        "real": "0.2295393349313016718477480682864390604277224312879699762",
+        "imag": "-0.5401334250191072134701217797347970300086997375503771132"
+      },
+      "precision_check": {
+        "dps_low": 60,
+        "dps_high": 85,
+        "absolute_root_difference": "3.52351110424e-62",
+        "cf_residual_high_precision": "4.02152936677e-86"
+      },
+      "double_depth_evaluation": {
+        "depth": 6400,
+        "absolute_cf_residual": "6.84355227534e-30",
+        "newton_frequency_correction_estimate": "6.32740512158e-31"
+      },
+      "reached_successive_depth_target": true,
+      "elapsed_seconds": 3.759
+    },
+    {
+      "ell": 2,
+      "overtone": 0,
+      "coarse_seed": [
+        ".97",
+        "-.19"
+      ],
+      "depth_study": [
+        {
+          "depth": 50,
+          "omega": {
+            "real": "0.96728774442118306281718329054515655098033847592",
+            "imag": "-0.193517551962807332635557057408971212962107640943"
+          },
+          "absolute_cf_residual": "1.73938564829e-61",
+          "absolute_cf_derivative": "14.9124145962",
+          "newton_iterations": 6,
+          "successive_root_difference": null
+        },
+        {
+          "depth": 100,
+          "omega": {
+            "real": "0.967287744421425923269100334487998825661772775578",
+            "imag": "-0.19351755195657587149844668992636843752989445886"
+          },
+          "absolute_cf_residual": "3.20726866256e-61",
+          "absolute_cf_derivative": "14.9124145976",
+          "newton_iterations": 4,
+          "successive_root_difference": "6.23619187505e-12"
+        },
+        {
+          "depth": 200,
+          "omega": {
+            "real": "0.967287744421425973455505763009044958103850116588",
+            "imag": "-0.193517551956575725317311101981140813640176689829"
+          },
+          "absolute_cf_residual": "2.80467508404e-61",
+          "absolute_cf_derivative": "14.9124145976",
+          "newton_iterations": 3,
+          "successive_root_difference": "1.5455613767e-16"
+        },
+        {
+          "depth": 400,
+          "omega": {
+            "real": "0.967287744421425973455558870303475587231646190567",
+            "imag": "-0.193517551956575725317307466701750539660005317521"
+          },
+          "absolute_cf_residual": "7.77876909733e-62",
+          "absolute_cf_derivative": "14.9124145976",
+          "newton_iterations": 3,
+          "successive_root_difference": "5.32315693737e-23"
+        },
+        {
+          "depth": 800,
+          "omega": {
+            "real": "0.967287744421425973455558870303517164291090013141",
+            "imag": "-0.19351755195657572531730746670174374726056761681"
+          },
+          "absolute_cf_residual": "6.22301527786e-61",
+          "absolute_cf_derivative": "14.9124145976",
+          "newton_iterations": 2,
+          "successive_root_difference": "4.21282394851e-32"
+        }
+      ],
+      "final_depth": 800,
+      "omega": {
+        "real": "0.96728774442142597345555887030351716429109001314144863157853293775",
+        "imag": "-0.19351755195657572531730746670174374726056761681019574220690720403"
+      },
+      "Momega": {
+        "real": "0.4836438722107129867277794351517585821455450065707243158",
+        "imag": "-0.0967587759782878626586537333508718736302838084050978711"
+      },
+      "precision_check": {
+        "dps_low": 60,
+        "dps_high": 85,
+        "absolute_root_difference": "2.55245269289e-62",
+        "cf_residual_high_precision": "1.60861174671e-86"
+      },
+      "double_depth_evaluation": {
+        "depth": 1600,
+        "absolute_cf_residual": "9.00590699568e-44",
+        "newton_frequency_correction_estimate": "6.03920105408e-45"
+      },
+      "reached_successive_depth_target": true,
+      "elapsed_seconds": 0.806
+    },
+    {
+      "ell": 2,
+      "overtone": 1,
+      "coarse_seed": [
+        ".93",
+        "-.59"
+      ],
+      "depth_study": [
+        {
+          "depth": 50,
+          "omega": {
+            "real": "0.927701155179779734932325792252169281681390257907",
+            "imag": "-0.591207872447328073261520856220602408675760020648"
+          },
+          "absolute_cf_residual": "3.47877129658e-61",
+          "absolute_cf_derivative": "18.7536897947",
+          "newton_iterations": 6,
+          "successive_root_difference": null
+        },
+        {
+          "depth": 100,
+          "omega": {
+            "real": "0.927701158039626070587986290351611588282549141666",
+            "imag": "-0.591207873976569318529836514128072322385308734867"
+          },
+          "absolute_cf_residual": "7.77876909733e-61",
+          "absolute_cf_derivative": "18.7536899526",
+          "newton_iterations": 4,
+          "successive_root_difference": "3.24303867535e-9"
+        },
+        {
+          "depth": 200,
+          "omega": {
+            "real": "0.927701158039531128932344588214811353170942993686",
+            "imag": "-0.591207873975925048946073676282971052681916520009"
+          },
+          "absolute_cf_residual": "1.67559814343e-60",
+          "absolute_cf_derivative": "18.7536899528",
+          "newton_iterations": 3,
+          "successive_root_difference": "6.51227467586e-13"
+        },
+        {
+          "depth": 400,
+          "omega": {
+            "real": "0.927701158039531126436544324435397334679952829994",
+            "imag": "-0.591207873975925052419212627216138709830716077967"
+          },
+          "absolute_cf_residual": "5.60935016808e-61",
+          "absolute_cf_derivative": "18.7536899528",
+          "newton_iterations": 3,
+          "successive_root_difference": "4.27688123861e-18"
+        },
+        {
+          "depth": 800,
+          "omega": {
+            "real": "0.927701158039531126436544113024192472374222709804",
+            "imag": "-0.591207873975925052419212578699495979236372404816"
+          },
+          "absolute_cf_residual": "1.55575381947e-60",
+          "absolute_cf_derivative": "18.7536899528",
+          "newton_iterations": 2,
+          "successive_root_difference": "2.16906805249e-25"
+        }
+      ],
+      "final_depth": 800,
+      "omega": {
+        "real": "0.92770115803953112643654411302419247237422270980410592726779929191",
+        "imag": "-0.59120787397592505241921257869949597923637240481583178911470895808"
+      },
+      "Momega": {
+        "real": "0.4638505790197655632182720565120962361871113549020529636",
+        "imag": "-0.2956039369879625262096062893497479896181862024079158946"
+      },
+      "precision_check": {
+        "dps_low": 60,
+        "dps_high": 85,
+        "absolute_root_difference": "7.29717921855e-62",
+        "cf_residual_high_precision": "1.73252787334e-85"
+      },
+      "double_depth_evaluation": {
+        "depth": 1600,
+        "absolute_cf_residual": "2.07931287252e-34",
+        "newton_frequency_correction_estimate": "1.1087486664e-35"
+      },
+      "reached_successive_depth_target": true,
+      "elapsed_seconds": 0.889
+    },
+    {
+      "ell": 2,
+      "overtone": 2,
+      "coarse_seed": [
+        ".86",
+        "-1.02"
+      ],
+      "depth_study": [
+        {
+          "depth": 50,
+          "omega": {
+            "real": "0.861088376243968947514983574008304789123495384007",
+            "imag": "-1.01711649274168376413133886766789802436488047207"
+          },
+          "absolute_cf_residual": "1.8143051363e-60",
+          "absolute_cf_derivative": "26.0458523813",
+          "newton_iterations": 6,
+          "successive_root_difference": null
+        },
+        {
+          "depth": 100,
+          "omega": {
+            "real": "0.861088109198711415552653298921828452993504405198",
+            "imag": "-1.01711680453084371979815979098281918533364516945"
+          },
+          "absolute_cf_residual": "6.41453732511e-61",
+          "absolute_cf_derivative": "26.045696748",
+          "newton_iterations": 4,
+          "successive_root_difference": "4.10518756985e-7"
+        },
+        {
+          "depth": 200,
+          "omega": {
+            "real": "0.861088108753187474126945981889970544715841215339",
+            "imag": "-1.01711680430856867866706533240080428928465049237"
+          },
+          "absolute_cf_residual": "1.24460305557e-60",
+          "absolute_cf_derivative": "26.0456966281",
+          "newton_iterations": 4,
+          "successive_root_difference": "4.9789333827e-10"
+        },
+        {
+          "depth": 400,
+          "omega": {
+            "real": "0.861088108753151536154465353159548005427110177827",
+            "imag": "-1.01711680430854897498415294893685208313721480448"
+          },
+          "absolute_cf_residual": "1.28290746502e-60",
+          "absolute_cf_derivative": "26.045696628",
+          "newton_iterations": 3,
+          "successive_root_difference": "4.09850336871e-14"
+        },
+        {
+          "depth": 800,
+          "omega": {
+            "real": "0.861088108753151536213124505567329180938001873038",
+            "imag": "-1.01711680430854897494000986945662592553624806759"
+          },
+          "absolute_cf_residual": "8.80067260481e-61",
+          "absolute_cf_derivative": "26.045696628",
+          "newton_iterations": 3,
+          "successive_root_difference": "7.34132660164e-20"
+        }
+      ],
+      "final_depth": 800,
+      "omega": {
+        "real": "0.86108810875315153621312450556732918093800187303823633834770364874",
+        "imag": "-1.0171168043085489749400098694566259255362480675897211313160519832"
+      },
+      "Momega": {
+        "real": "0.4305440543765757681065622527836645904690009365191181692",
+        "imag": "-0.5085584021542744874700049347283129627681240337948605657"
+      },
+      "precision_check": {
+        "dps_low": 60,
+        "dps_high": 85,
+        "absolute_root_difference": "6.53573728428e-63",
+        "cf_residual_high_precision": "2.84592469729e-85"
+      },
+      "double_depth_evaluation": {
+        "depth": 1600,
+        "absolute_cf_residual": "1.4984867438e-26",
+        "newton_frequency_correction_estimate": "5.75329877023e-28"
+      },
+      "reached_successive_depth_target": true,
+      "elapsed_seconds": 0.958
+    }
+  ],
+  "maximum_depth": 25600
+}

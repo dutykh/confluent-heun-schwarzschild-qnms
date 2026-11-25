@@ -1,0 +1,94 @@
+{
+  "field": "massless scalar Schwarzschild",
+  "conventions": {
+    "Omega": "2M omega",
+    "time": "exp(-i omega t)",
+    "z": "r/(2M)",
+    "y": "(z-1)/z",
+    "lambda": "i Omega"
+  },
+  "method": "Chebyshev-coefficient Lobatto collocation and arbitrary-precision finite-matrix root refinement",
+  "limitations": [
+    "No interval error enclosures; grid differences are empirical diagnostics.",
+    "Smoothness at compactified infinity does not remove exponentially flat incoming contamination in the damped half-plane.",
+    "Outgoing scattering continuation must be checked independently.",
+    "Labels track initial low-damping positive-frequency candidates; they are provisional, not a completeness theorem.",
+    "High working precision controls algebraic root error, not spectral truncation error.",
+    "Raw nodal double-precision D^2 formulation loses accuracy much earlier than coefficient form."
+  ],
+  "symbolic_checks": {
+    "operator_identities": [
+      "0",
+      "0"
+    ],
+    "exact_symbolic_Chebyshev_basis_checks": 6,
+    "coefficient_assembly": "integer arithmetic, final exact integer/32 entries"
+  },
+  "grids": [
+    40,
+    60
+  ],
+  "working_decimal_digits": 50,
+  "results": [
+    {
+      "ell": 2,
+      "N": 40,
+      "working_decimal_digits": 50,
+      "omega_strings": [
+        "0.967287744421430604083036583698813549248343133",
+        "-0.19351755195657063581854632716810143708471462"
+      ],
+      "newton_absolute_steps": [
+        "1.25288841387e-15",
+        "3.34213756922e-29",
+        "4.69334865666e-52"
+      ],
+      "final_step": 4.6933486566622604e-52,
+      "provisional_overtone": 0,
+      "previous_grid_difference": null,
+      "elapsed_seconds": 0.11933517456054688
+    },
+    {
+      "ell": 2,
+      "N": 60,
+      "working_decimal_digits": 50,
+      "omega_strings": [
+        "0.967287744421425973269283478918933072555251965",
+        "-0.193517551956575725295228905318630147422880007"
+      ],
+      "newton_absolute_steps": [
+        "6.88827155526e-15",
+        "1.24804681028e-27",
+        "3.49843890997e-52"
+      ],
+      "final_step": 3.4984389099724095e-52,
+      "provisional_overtone": 0,
+      "previous_grid_difference": 6.895068227594836e-15,
+      "elapsed_seconds": 0.3132951259613037
+    }
+  ],
+  "initial_double_spectra": {
+    "2": [
+      [
+        0.9672877444214307,
+        -0.1935175519565694
+      ],
+      [
+        0.9277011580285696,
+        -0.5912078740249497
+      ],
+      [
+        0.861088068241244,
+        -1.0171167811055815
+      ],
+      [
+        0.7877298225444836,
+        -1.4761886185345405
+      ],
+      [
+        0.7226309416617829,
+        -1.959981142143035
+      ]
+    ]
+  }
+}

@@ -33,10 +33,13 @@ keywords:
   - general-relativity
   - schwarzschild-black-hole
   - confluent-heun-equation
+  - heun-functions
   - connection-problem
   - interval-arithmetic
   - computer-assisted-proof
   - rouche-theorem
+  - validated-numerics
+  - mathematical-physics
   - python
   - reproducible-research
 authors:
